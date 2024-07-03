@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8"?>
 <Defs>
 	<ThingDef ParentName="SK_ResourceBase">
 		<defName>Bronze</defName>
@@ -50,7 +50,8 @@ Bronze is an alloy consisting primarily of copper, commonly with about 12% tin a
 			<constructEffect>ConstructMetal</constructEffect>
 			<color>(210,140,20)</color>
 			<commonality>1.0</commonality>
-			<soundImpactStuff>BulletImpact_Metal</soundImpactStuff>
+			<soundImpactBullet>BulletImpact_Metal</soundImpactBullet>
+			<soundImpactMelee>Pawn_Melee_Punch_HitBuilding_Metal</soundImpactMelee>
 			<soundMeleeHitSharp>MeleeHit_Metal_Sharp</soundMeleeHitSharp>
 			<soundMeleeHitBlunt>MeleeHit_Metal_Blunt</soundMeleeHitBlunt>
 			<statFactors>
@@ -73,9 +74,9 @@ Bronze is an alloy consisting primarily of copper, commonly with about 12% tin a
 		</stuffProps>
 		<terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
 		<modExtensions>
-		    <li Class="SurvivalToolsLite.StuffPropsTool">
-                <toolStatFactors>
-                    <TreeFellingSpeed>1.1</TreeFellingSpeed>
+			<li Class="SurvivalToolsLite.StuffPropsTool">
+				<toolStatFactors>
+					<TreeFellingSpeed>1.1</TreeFellingSpeed>
 					<PlantHarvestingSpeed>1.1</PlantHarvestingSpeed>
 					<PlantWorkSpeed>1</PlantWorkSpeed>
 					<MiningSpeed>0.9</MiningSpeed>
@@ -84,12 +85,10 @@ Bronze is an alloy consisting primarily of copper, commonly with about 12% tin a
 					<SmithingSpeed>1.1</SmithingSpeed>
 					<CookSpeed>1.1</CookSpeed>
 					<ButcheryFleshSpeed>1.1</ButcheryFleshSpeed>
-                </toolStatFactors>
-            </li>
+				</toolStatFactors>
+			</li>
 		</modExtensions>
 	</ThingDef>
-	
-	
 
-	
+
 </Defs>
