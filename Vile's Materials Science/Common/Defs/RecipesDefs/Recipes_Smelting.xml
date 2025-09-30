@@ -16,7 +16,7 @@
 			<li>
 				<filter>
 					<thingDefs>
-						<li>Steel</li>
+						<li>Iron</li>
 						<li>BogIron</li>
 					</thingDefs>
 				</filter>
@@ -34,7 +34,7 @@
 		</ingredients>
 		<fixedIngredientFilter>
 			<thingDefs>
-				<li>Steel</li>
+				<li>Iron</li>
 				<li>BogIron</li>
 			</thingDefs>
 			<categories>
@@ -65,7 +65,7 @@
 			<li>
 				<filter>
 					<thingDefs>
-						<li>Steel</li>
+						<li>Iron</li>
 					</thingDefs>
 				</filter>
 				<count>15</count>
@@ -81,7 +81,7 @@
 		</ingredients>
 		<fixedIngredientFilter>
 			<thingDefs>
-				<li>Steel</li>
+				<li>Iron</li>
 			</thingDefs>
 			<categories>
 				<li>Coal</li> <li>Metallurgical</li>
@@ -111,7 +111,7 @@
 			<li>
 				<filter>
 					<thingDefs>
-						<li>Steel</li>
+						<li>Iron</li>
 					</thingDefs>
 				</filter>
 				<count>15</count>
@@ -127,7 +127,7 @@
 		</ingredients>
 		<fixedIngredientFilter>
 			<thingDefs>
-				<li>Steel</li>
+				<li>Iron</li>
 			</thingDefs>
 			<categories>
 				<li>Coal</li> <li>Metallurgical</li>

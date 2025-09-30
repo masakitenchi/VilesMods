@@ -1,30 +1,26 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Patch>
 
-    <Operation Class="PatchOperationReplace">
+	<Operation Class="PatchOperationReplace">
 		<xpath>Defs/ArchitectSense.DesignationSubCategoryDef[defName="SubCategory_Furnaces"]/label</xpath>
 		<value>
 			<label>Smelting</label>
 		</value>
 	</Operation>
-    
-	<Operation Class="PatchOperationReplace">
-		<xpath>Defs/ArchitectSense.DesignationSubCategoryDef[defName="SubCategory_Furnaces"]/defNames</xpath>
+
+	<Operation Class="SK.PatchOperationReplaceExtended">
+		<xpath>
+			Defs/ArchitectSense.DesignationSubCategoryDef[defName="SubCategory_Furnaces"]</xpath>
 		<value>
-			<defNames>
+			<defNames Merge="True">
 				<li>FirePit</li>
 				<li>Bloomery</li>
 				<li>TableFurnace</li>
 				<li>ElectricSmelter</li>
-                <li>ElecrolyticRefinery</li>
+				<li>ElecrolyticRefinery</li>
 			</defNames>
 		</value>
 	</Operation>
-    
-    
-    
-    
-  
-    
-    
+
+
 </Patch>

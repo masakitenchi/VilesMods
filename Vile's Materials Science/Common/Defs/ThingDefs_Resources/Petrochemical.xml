@@ -248,7 +248,7 @@
 			<color>(93,197,229)</color>
 		</stuffProps>
 	</ThingDef>
-
+	
 		<ThingDef ParentName="SK_ResourceBase">
 		<defName>Nylon</defName>
 		<label>Nylon</label>

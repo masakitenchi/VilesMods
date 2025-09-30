@@ -18,7 +18,7 @@
 			<li>
 				<filter>
 					<thingDefs>
-						<li>Steel</li> <!-- iron ore -->
+						<li>Iron</li> <!-- iron ore -->
 					</thingDefs>
 				</filter>
 				<count>15</count>
@@ -26,7 +26,7 @@
 		</ingredients>
 		<fixedIngredientFilter>
 			<thingDefs>
-				<li>Steel</li><!-- iron ore -->
+				<li>Iron</li><!-- iron ore -->
 			</thingDefs>
 		</fixedIngredientFilter>
 		<products>
@@ -54,7 +54,7 @@
 			<li>
 				<filter>
 					<thingDefs>
-						<li>Steel</li> <!-- iron ore -->
+						<li>Iron</li> <!-- iron ore -->
 						<li MayRequire="vitech.materialsscience">BogIron</li>
 					</thingDefs>
 				</filter>
@@ -71,7 +71,7 @@
 		</ingredients>
 		<fixedIngredientFilter>
 			<thingDefs>
-				<li>Steel</li><!-- iron ore -->
+				<li>Iron</li><!-- iron ore -->
 				<li MayRequire="vitech.materialsscience">BogIron</li>
 			</thingDefs>
 			<categories>

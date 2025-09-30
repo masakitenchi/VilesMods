@@ -40,7 +40,7 @@ An economical metal, mild steel would be the modern equivalent to wrought iron. 
 			</thingDefs>
 		</fixedIngredientFilter>
 		<products>
-			<Plasteel>35</Plasteel>
+			<Steel>35</Steel>
 		</products>
 		<skillRequirements>
 			<Crafting>6</Crafting>

@@ -91,7 +91,7 @@
 		<defaultIngredientFilter>
 			<thingDefs>
 				<li>FerrosiliconAlloy</li>	
-				<li>Plasteel</li>			
+				<li>Steel</li>			
 			</thingDefs>
 			<!--<disallowedThingDefs>
 				<li>FerrosiliconAlloy</li>
@@ -358,7 +358,7 @@
 			<thingDefs>
 				<li>ComponentIndustrial</li>
 				<li>SteelBar</li>	
-				<li>Plasteel</li>			
+				<li>Steel</li>			
 			</thingDefs>
 			<!--<disallowedThingDefs>
 				<li>FerrosiliconAlloy</li>

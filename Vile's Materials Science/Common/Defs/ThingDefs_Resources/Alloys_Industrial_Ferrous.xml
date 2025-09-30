@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 	<ThingDef ParentName="SK_ResourceBase">
-		<defName>Plasteel</defName>
+		<defName>Steel</defName>
 		<label>mild steel</label>
 		<description>TIER 3 - Industrial	
 >>> Optimal 	Economy

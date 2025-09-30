@@ -45,7 +45,7 @@
 			<ComponentMedieval>2</ComponentMedieval>
 		</costList>
 		<rotatable>false</rotatable>
-		<placingDraggableDimensions>2</placingDraggableDimensions>
+		<drawStyleCategory>Default1D</drawStyleCategory>
 		<researchPrerequisites>
 			<li>Fortification_A1</li>
 		</researchPrerequisites>
@@ -96,7 +96,7 @@
 			<ComponentMedieval>2</ComponentMedieval>
 		</costList>
 		<rotatable>false</rotatable>
-		<placingDraggableDimensions>2</placingDraggableDimensions>
+		<drawStyleCategory>Default1D</drawStyleCategory>
 		<researchPrerequisites>
 			<li>Fortification_A1</li>
 		</researchPrerequisites>
