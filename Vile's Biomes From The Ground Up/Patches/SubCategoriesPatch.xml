@@ -181,12 +181,4 @@
 			<label>Wasteland</label>
 		</value>
 	</Operation>
-	<Operation Class="SK.PatchOperationReplaceExtended">
-		<xpath>Defs/ArchitectSense.DesignationSubCategoryDef[defName="SubCategory_Gather"]</xpath>
-		<value>
-			<defNames Merge="True" />
-		</value>
-	</Operation>
-
-
 </Patch>

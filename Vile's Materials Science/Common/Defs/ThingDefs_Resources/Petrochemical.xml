@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 	
-	<ThingDef ParentName="SK_ResourceBase">
+	<ThingDef ParentName="ResourceBase">
 		<defName>Polymers</defName>
 		<label>Ethylene</label>
 		<description>Ethylene is product of refined Crude Oil. It's a colorless, very flammable gas used for making polyester, PVC, polyethylene, and plystyrene at a Petrochemical Plant.</description>
@@ -39,7 +39,7 @@
 		</comps>
 	</ThingDef>
 	
-	<ThingDef ParentName="SK_ResourceBase">
+	<ThingDef ParentName="ResourceBase">
 		<defName>Sulphates</defName>
 		<label>Benzene</label>
 		<description>Benzene is product of refined Crude Oil. It's a colorless, aromatic,  flammable liquid used for making napalm, polycarbonate, epoxy resin, polystyrene, and aramid fibers (such as kevlar) at a Petrochemical Plant.</description>
@@ -77,7 +77,7 @@
 		</comps>
 	</ThingDef>
 	
-	<ThingDef ParentName="SK_ResourceBase">
+	<ThingDef ParentName="ResourceBase">
 		<defName>Propylene</defName>
 		<label>Propylene</label>
 		<description>Propylene is product of refined Crude Oil. It's a colorless, gas used for making acrylic.</description>
@@ -115,7 +115,7 @@
 		</comps>
 	</ThingDef>
 	<!--
-	<ThingDef ParentName="SK_ResourceBase">
+	<ThingDef ParentName="ResourceBase">
 		<defName>Lubricant</defName>
 		<label>Lubricant</label>
 		<description>Synthetic lubricants are required to keep high performance machines running.</description>
@@ -141,7 +141,7 @@
 		<stackLimit>600</stackLimit>
 	</ThingDef>
 	-->
-	<ThingDef ParentName="SK_ResourceBase">
+	<ThingDef ParentName="ResourceBase">
 		<defName>Butadiene</defName>
 		<label>Butadiene</label>
 		<description>Pronounced byoo-tuh-dye-een, butadiene is an extremely flammable colorless gas. It's primarily used for synethesizing rubber and ABS plastic.</description>
@@ -179,7 +179,7 @@
 		</comps>
 	</ThingDef>
 	
-	<ThingDef ParentName="SK_ResourceBase">
+	<ThingDef ParentName="ResourceBase">
 		<defName>Xylene</defName>
 		<label>Xylene</label>
 		<description>Xylene is an important petrochemical used for various synthetic textiles at a Petrochemical Plant. It's also an ingredient in some drugs and medicines. It's somewhat flammable.</description>
@@ -217,7 +217,7 @@
 		</comps>
 	</ThingDef>
 	
-	<ThingDef ParentName="SK_ResourceBase">
+	<ThingDef ParentName="ResourceBase">
 		<defName>SyntheticFibers</defName>
 		<label>Polymer Fibers</label>
 		<description>A synthetic fiber spun from Polyethylene Terephthalate, better known as PET, is mostly used for weaving polyester fabric at a loom. Polymer fibers can be made using xylene and ethylene or automatically via a refinery.</description>
@@ -249,7 +249,7 @@
 		</stuffProps>
 	</ThingDef>
 	
-		<ThingDef ParentName="SK_ResourceBase">
+		<ThingDef ParentName="ResourceBase">
 		<defName>Nylon</defName>
 		<label>Nylon</label>
 		<description>Nylon 66, or Polyamide-66, is a synthetic material which is stronger than most basic polymers. It is often reinforced with glass, carbon, or arammid fibers, and is essential is the construction of many firearms. It's made using two monomers each containing 6 carbon atoms, which is where it gets it's designation. The base elements used to produce thse are Butadiene, Chlorine, and ammonia.</description>
@@ -281,7 +281,7 @@
 		</stuffProps>
 	</ThingDef>
 	
-	<ThingDef ParentName="SK_ResourceBase">
+	<ThingDef ParentName="ResourceBase">
 		<defName>HMFibers</defName>
 		<label>High-Modulus Fibers</label>
 		<description>These fibers are spun at a special refinery. It is a form of polyethylene called ultra-high-molecular-weight-polyethylene, or UHMWPE. Unlike HDPE, it is extremely strong, and can be incorporated or woven into ballistic-rated materials.</description>
@@ -313,7 +313,7 @@
 		</stuffProps>
 	</ThingDef>
 	
-	<ThingDef ParentName="SK_ResourceBase">
+	<ThingDef ParentName="ResourceBase">
 		<defName>Compaste</defName>
 		<label>Epoxy Resin</label>
 		<description>Thermoset epoxy has many applications, including apparel production and as a polymer matrix for composite materials such as fiberglass.</description>
@@ -337,7 +337,7 @@
 		</thingCategories>
 	</ThingDef>
 	
-	<ThingDef ParentName="SK_ResourceBase">
+	<ThingDef ParentName="ResourceBase">
 		<defName>Polystyrene</defName>
 		<label>Polystyrene</label>
 		<description>Polystyrene is a polymer made via ethylene and benzene products. It has some practical commercial applications, but out here it's more important as an ingredient in napalm. It's also used to make ABS plastic and it is the main component in synthetic rubber.</description>
@@ -363,7 +363,7 @@
 		<stackLimit>300</stackLimit>
 	</ThingDef>
 	
-	<ThingDef ParentName="SK_ResourceBase">
+	<ThingDef ParentName="ResourceBase">
 		<defName>SyntheticAmmonia</defName>
 		<label>Ammonia</label>
 		<description>Ammonia is synthesized via nitrogen and hydrogen using hydrocarbons as a feedstock. It's useful for explosives, as a working fluid for binary cycle plants, and for certain plastics.</description>
@@ -402,7 +402,7 @@
 		<stackLimit>75</stackLimit>
 	</ThingDef>
 
-    <ThingDef ParentName="SK_ResourceBase">
+    <ThingDef ParentName="ResourceBase">
 		<defName>Neutroamine</defName>
 		<label>neutroamine</label>
 		<description>A synthetic precursor chemical made from an artificially engineered plant. Useless on its own, many drugs require neutroamine as an ingredient.</description>

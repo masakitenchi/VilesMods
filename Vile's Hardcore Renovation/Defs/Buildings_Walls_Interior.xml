@@ -103,7 +103,7 @@
 		<constructionSkillPrerequisite>5</constructionSkillPrerequisite>
 	</ThingDef>
 
-	<ThingDef ParentName="WallBase" Name="InteriorWall">
+	<ThingDef ParentName="Wall" Name="InteriorWall">
 		<defName>InteriorWall</defName>
 		<label>Interior Wall</label>
 		<description>An interior with very little structural integrity. The cement backerboard is flame retardant, however.</description>
@@ -208,7 +208,7 @@
 		</statBases>
 	</ThingDef>
 	
-	<ThingDef ParentName="WallBase">
+	<ThingDef ParentName="Wall">
 		<defName>WoodPanelWall</defName>
 		<label>Panel Wall</label>
 		<description>A frame wall with thing wood panels for siding. Just strong enough to justify being an exterior wall, but cheap enough to be interior as well.</description>
@@ -259,7 +259,7 @@
 	</ThingDef>
 	
 	
-	<ThingDef ParentName="WallBase">
+	<ThingDef ParentName="Wall">
 		<defName>CeramicTileWall</defName>
 		<label>Tile Wall</label>
 		<description>Interior wall made of grouted tiles. Clean and pristine.</description>

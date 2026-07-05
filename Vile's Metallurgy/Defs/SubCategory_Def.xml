@@ -23,7 +23,7 @@
 			<li>Building_ClayPotLead</li>
 			<li>Building_ClayPotTin</li>
 		</defNames>
-		<designationCategory>LWM_DS_Storage</designationCategory>
+		<designationCategory>ASFstorage</designationCategory>
 		<debug>false</debug>
 	</ArchitectSense.DesignationSubCategoryDef>
 	

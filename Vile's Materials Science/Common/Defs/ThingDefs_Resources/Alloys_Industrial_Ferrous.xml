@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-	<ThingDef ParentName="SK_ResourceBase">
+	<ThingDef ParentName="ResourceBase">
 		<defName>Steel</defName>
 		<label>mild steel</label>
 		<description>TIER 3 - Industrial	
@@ -89,7 +89,7 @@ An economical metal, mild steel would be the modern equivalent to wrought iron. 
 		</modExtensions>
 	</ThingDef>
 	
-	<ThingDef ParentName="SK_ResourceBase">
+	<ThingDef ParentName="ResourceBase">
 		<defName>CarbonSteel</defName>
 		<label>carbon steel</label>
 			<description>TIER 3 - Industrial
@@ -178,7 +178,7 @@ Carbon steels have more carbon than wrought iron and less than cast iron. This o
 		</modExtensions>
 	</ThingDef>
 	
-	<ThingDef ParentName="SK_ResourceBase">
+	<ThingDef ParentName="ResourceBase">
 		<defName>SteelBar</defName>
 		<label>Abrasion steel (AR500)</label>
 		<description>TIER 3 - Industrial
@@ -266,7 +266,7 @@ AR500 is an Abrasion-Resistant Steel - a high-carbon steel which is quenched and
 		</modExtensions>
 	</ThingDef>
 	
-	<ThingDef ParentName="SK_ResourceBase">
+	<ThingDef ParentName="ResourceBase">
 		<defName>FerrosiliconAlloy</defName>
 		<label>stainless steel</label>
 		<description>TIER 3 - Industrial
@@ -355,7 +355,7 @@ Tools Recommended: Bladed (fair)
 		</modExtensions>
 	</ThingDef>
 
-	<ThingDef ParentName="SK_ResourceBase">
+	<ThingDef ParentName="ResourceBase">
 		<defName>AlnicoAlloy</defName>
 		<label>tool steel</label>
 		<description>TIER 3 - Industrial
@@ -442,7 +442,7 @@ Tool steel has tungsten and other components to increase hardness and toughness,
 		</modExtensions>
 	</ThingDef>
 	
-	<ThingDef ParentName="SK_ResourceBase">
+	<ThingDef ParentName="ResourceBase">
 		<defName>SpringSteel</defName>
 		<label>spring steel</label>
 		<description>TIER 3 - Industrial

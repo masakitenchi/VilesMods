@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-	<ThingDef ParentName="SK_ResourceBase">
+	<ThingDef ParentName="ResourceBase">
 		<defName>AlphaPoly</defName>
 		<label>hyperalloy</label>
 		<description>TIER 5 - Ultra Tech
@@ -98,7 +98,7 @@ Hyperalloy is synthesized at the atomic level and refined with niobium and tanta
 		</modExtensions>
 	</ThingDef>
 	
-	<ThingDef ParentName="SK_ResourceBase">
+	<ThingDef ParentName="ResourceBase">
 		<defName>BetaPoly</defName>
 		<label>polymimetic alloy</label>
 		<description>TIER 5 - Ultra Tech
@@ -200,7 +200,7 @@ Originally developed as military hardware, polymimetic alloy is programmable mat
 	
 	<!-- YAUTJAVIUM -->
 	
-	<ThingDef ParentName="SK_ResourceBase">
+	<ThingDef ParentName="ResourceBase">
 		<defName>Yautjavium</defName>
 		<label>yautjavium</label>
 		<description>TIER 5 - Ultra Tech
@@ -298,7 +298,7 @@ This lightweight, exotic alloy is refined at the molecular level and it can hold
 	
 	<!-- Mesochitin -->
 	<!--
-	<ThingDef ParentName="SK_ResourceBase">
+	<ThingDef ParentName="ResourceBase">
 		<defName>Mesochitin</defName>
 		<label>mesochitin</label>
 		<description>This silicon-based material is made of quasi-organic matter which must be assembled by nanites. It's hardened form has a resin-like appearance, fluctuating between blue and black hues. It's one of the strongest and toughest known materials, insulated well, and is relatively easy to form due to nanotechnology</description>

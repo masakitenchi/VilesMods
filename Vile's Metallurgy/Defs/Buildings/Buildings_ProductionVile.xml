@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-	<ThingDef ParentName="BuildingFueled">
+	<ThingDef ParentName="SK_WorkTableFueled">
 		<defName>FirePit</defName>
 		<label>fire pit</label>
 		<description>A large oven dug into the earth. It can burn hotter than a campfire - enough to smelt pre-iron age metals such as lead and bronze.</description>    
@@ -98,7 +98,7 @@
 		</building>
 	</ThingDef>
 	<!-- ==== BLOOMERY ==== -->
-	<ThingDef ParentName="WorkTableFueled">
+	<ThingDef ParentName="SK_WorkTableFueled">
 		<defName>Bloomery</defName>
 		<label>bloomery</label>
 		<description>A bloomery is a small furnace used to reduce iron ore (ie. dirty, rusty rocks) into a iron bloom. The furnace doesn't get hot enough to melt the iron, but instead the carbon monoxide (CO) from the burning carbon fuel (charcoal) reacts with the iron oxide (FeO) to make carbon dioxide (CO2), leaving behind metallic iron (Fe) in a spongy mass of slag. Then you'll want to have a blacksmith beat the impurities out with a hammer if you want iron that you can actually use.</description>
@@ -127,9 +127,6 @@
 		</stuffCategories>
 		<costStuffCount>100</costStuffCount>
 		<minifiedDef>MinifiedThing</minifiedDef>
-		<thingCategories>
-			<li>BuildingsProduction</li>
-		</thingCategories>
 		<statBases>
 			<WorkToBuild>1000</WorkToBuild>
 			<MaxHitPoints>100</MaxHitPoints>
@@ -199,7 +196,7 @@
 	</ThingDef>
 	
 	<!-- ==== BLAST FURNACE ==== -->
-	<ThingDef ParentName="BuildingFueled">
+	<ThingDef ParentName="SK_WorkTableFueled">
 		<defName>TableFurnace</defName>
 		<label>blast furnace</label>
 		<description>A furnace used for smelting basic metal (typically iron) ores into metal alloys. A bellows blasts air into the furnace and the carbon in the fuel (coal, coke, or charcoal) reacts with the oxygen in the ore removing impurities and leaving behind iron rich with a high carbon content (pig iron). Copper, lead, bronze, gold and silver can also be smelted here, though those processes are much simpler due to lower melting points. Powering the bellows with a steam engine can speed up the process.</description>
@@ -232,9 +229,6 @@
 			<Leather_Patch>8</Leather_Patch>
 		</costList>
 		<minifiedDef>MinifiedThing</minifiedDef>
-		<thingCategories>
-			<li>BuildingsProduction</li>
-		</thingCategories>
 		<statBases>
 			<WorkToBuild>3400</WorkToBuild>
 			<MaxHitPoints>320</MaxHitPoints>
@@ -316,7 +310,7 @@
 	</ThingDef>
 
 	<!-- ==== SMITHY FORGE ==== -->
-	<ThingDef ParentName="WorkTableFueled">
+	<ThingDef ParentName="SK_WorkTableFueled">
 		<defName>FueledSmithy</defName>
 		<label>smithy forge</label>
 		<description>This blacksmithing setup has all the tools needed to build metal armor, work tools, melee weapons, advanced bows and crossbows, as well as simple ammunition such as arrows. It requires some fuel that burns at a high temperature such as coal or peat.</description>
@@ -350,9 +344,6 @@
 			<Mechanism>8</Mechanism>
 		</costList>
 		<minifiedDef>MinifiedThing</minifiedDef>
-		<thingCategories>
-			<li>BuildingsProduction</li>
-		</thingCategories>
 		<statBases>
 			<WorkToBuild>1700</WorkToBuild>
             <MaxHitPoints>250</MaxHitPoints>
@@ -424,7 +415,7 @@
 	</ThingDef>
 	
 	<!-- ==== FINERY FORGE ==== -->
-	<ThingDef Class="SK.ThingDef_AnimatedWorktable" ParentName="BuildingFueled">
+	<ThingDef Class="SK.ThingDef_AnimatedWorktable" ParentName="SK_WorkTableFueled">
 		<defName>Finery</defName>
 		<label>finery forge</label>
         <thingClass>SK.Building_AnimatedWorktable</thingClass>
@@ -459,9 +450,6 @@
 			<WoodLog>100</WoodLog>
 		</costList>
 		<minifiedDef>MinifiedThing</minifiedDef>
-		<thingCategories>
-			<li>BuildingsProduction</li>
-		</thingCategories>
 		<statBases>
 			<WorkToBuild>1700</WorkToBuild>
 			<MaxHitPoints>250</MaxHitPoints>
@@ -548,7 +536,7 @@
 	</ThingDef>
 	
 	<!-- ==== FOUNDRY ==== -->
-	<ThingDef ParentName="WorkTableFueled">
+	<ThingDef ParentName="SK_WorkTableFueled">
 		<defName>Foundry</defName>
 		<label>foundry</label>
 		<description>A reverberatory furnace for melting metals. The material is heated by reflected thermal energy and combustion gasses without direct contact with the fuel (as opposed to a blast furnace). It's a multi-use furnace. Pots and crucibles can be placed in the hearth, or the chamber can be completely filled with molten metal for puddling pig into wrought iron or, technology allowing, certain types of steel.</description>
@@ -815,7 +803,7 @@
 	</ThingDef>
 
 	<!-- ==== STAMP MILL ==== -->
-	<ThingDef ParentName="WorkTable">
+	<ThingDef ParentName="SK_WorkTable">
 		<defName>StampMill</defName>
 		<label>stamp mill</label>
 		<description>A mill that smashes rather than grinds. It can be powered by hand if you're desperate, but it's meant to be powered by a waterwheel.</description>
@@ -846,9 +834,6 @@
 			<Mechanism>8</Mechanism>
 		</costList>
 		<minifiedDef>MinifiedThing</minifiedDef>
-		<thingCategories>
-			<li>BuildingsProduction</li>
-		</thingCategories>
 		<statBases>
 			<WorkToBuild>800</WorkToBuild>
 			<MaxHitPoints>300</MaxHitPoints>
@@ -892,7 +877,7 @@
 	</ThingDef>
 
 	
-<ThingDef ParentName="WorkTable">
+<ThingDef ParentName="SK_WorkTable">
 		<defName>PotteryStation</defName>
 		<label>pottery bench</label>
 		<description>A potter's wheel and bench for preparing earthenware and ceramic objects for the kiln.</description>
@@ -919,9 +904,6 @@
 		</stuffCategories>
 		<costStuffCount>120</costStuffCount>
 		<minifiedDef>MinifiedThing</minifiedDef>
-		<thingCategories>
-			<li>BuildingsProduction</li>
-		</thingCategories>
 		<statBases>
 			<WorkToBuild>900</WorkToBuild>
 			<MaxHitPoints>180</MaxHitPoints>

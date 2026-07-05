@@ -2,7 +2,7 @@
 <Defs>
 <!-- INDUSTRIAL -->
 	<!-- HDPE -->
-	<ThingDef ParentName="SK_ResourceBase" Name="HDPEBase">
+	<ThingDef ParentName="ResourceBase" Name="HDPEBase">
 		<defName>Plastic</defName>
 		<label>polyethylene plastic (HDPE)</label>
 		<description>TIER 3 - Industrial (commodity)
@@ -208,7 +208,7 @@ Polyvinyl chloride is one of the three main commodity plastics. It can be used f
 	</ThingDef>
 	
 	<!-- Plexiglass -->
-	<ThingDef ParentName="SK_ResourceBase">
+	<ThingDef ParentName="ResourceBase">
 		<defName>Plexiglass</defName>
 		<label>plexiglass</label>
 		<description>TIER 3 - Industrial (commodity)
@@ -304,7 +304,7 @@ Plexiglass is transparent Polymethyl methacrylate, or acrylic glass. It's strong
 	</ThingDef>
 
 	<!-- ABS -->
-	<ThingDef ParentName="SK_ResourceBase">
+	<ThingDef ParentName="ResourceBase">
 		<defName>ABS</defName>
 		<label>ABS plastic</label>
 		<description>TIER 3 - Industrial (engineering)
@@ -398,7 +398,7 @@ Riding the line between a commodity and engineering plastic, Acrylonitrile-butad
 	</ThingDef>	
 	
 	<!-- PC-->
-	<ThingDef ParentName="SK_ResourceBase">
+	<ThingDef ParentName="ResourceBase">
 		<defName>Polycarbonate</defName>
 		<label>polycarbonate</label>
 		<description>TIER 3 - Industrial (engineering)
@@ -498,7 +498,7 @@ Polycarbonate is a clear plastic which is often used for bulletproof glass and r
 	
 	<!-- FIBERGLASS -->
 	
-	<ThingDef ParentName="SK_ResourceBase">
+	<ThingDef ParentName="ResourceBase">
 		<defName>Fiberglass</defName>
 		<label>fiberglass</label>
 		<description>TIER 3 - Industrial (engineering)
@@ -592,7 +592,7 @@ Glass-fiber reinforced plastic is a composite material of glass fibers set into 
 	</ThingDef>
 
     <!-- REINFORCED GLASS -->
-    <ThingDef ParentName="SK_ResourceBase">
+    <ThingDef ParentName="ResourceBase">
 		<defName>ReinforcedGlass</defName>
 		<label>Reinforced Glass Frame</label>
 		<description>A stronger version of Glass Frames that is harder to work with, but has more potential uses.</description>

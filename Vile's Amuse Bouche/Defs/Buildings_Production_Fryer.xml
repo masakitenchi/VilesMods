@@ -61,7 +61,7 @@
 		<slotsCount>16</slotsCount>
 	</ThingDef>
 
-	<ThingDef ParentName="WorkTable">
+	<ThingDef ParentName="SK_WorkTable">
 		<defName>Fryer</defName>
 		<label>deep fryer</label>
 		<thingClass>SK.Building_WorkTable_HeatPushAdvanced</thingClass>
@@ -93,9 +93,6 @@
 			<Mechanism>5</Mechanism>
 		</costList>
 		<minifiedDef>MinifiedThing</minifiedDef>
-		<thingCategories>
-			<li>BuildingsProduction</li>
-		</thingCategories>
 		<statBases>
 			<WorkToBuild>1800</WorkToBuild>
 			<MaxHitPoints>120</MaxHitPoints>

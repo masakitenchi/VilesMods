@@ -2,7 +2,7 @@
 <Defs>
 	
 	<!-- LINEN -->
-	<ThingDef ParentName="SK_ResourceBase">
+	<ThingDef ParentName="ResourceBase">
 		<defName>Flaxcloth</defName>
 		<label>Linen</label>
 		<description>TIER 2 - Medieval
@@ -62,7 +62,7 @@ A sturdy, all-purpose fabric. It's good for all seasons and makes fantastic bed 
 	
 	<!-- COTTON CLOTH -->
 	
-	<ThingDef ParentName="SK_ResourceBase">
+	<ThingDef ParentName="ResourceBase">
 		<defName>Cloth</defName>
 		<label>cloth</label>
 		<description>TIER 2 - Medieval
@@ -144,7 +144,7 @@ Cotton cloth is an economical and production-oriented fabric in that it's easy t
 	
 	<!-- HEMP FABRIC -->
 	
-	<ThingDef ParentName="SK_ResourceBase">
+	<ThingDef ParentName="ResourceBase">
 		<defName>HempCloth</defName>
 		<label>Hemp</label>
 		<description>TIER 2 - Medieval

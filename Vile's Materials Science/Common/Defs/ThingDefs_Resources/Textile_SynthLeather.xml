@@ -3,7 +3,7 @@
 	
 		<!-- PVC LEATHER -->
 	
-	<ThingDef ParentName="SK_ResourceBase">
+	<ThingDef ParentName="ResourceBase">
 		<defName>PVCLeather</defName>
 		<label>Vinyl faux-leather</label>
 		<description>TIER 3 - Industrial
@@ -60,7 +60,7 @@ Also known as PVC leather, this vegan material competes with animal leathers. It
 	
 		<!-- Mycotan leather -->
 	
-	<ThingDef ParentName="SK_ResourceBase">
+	<ThingDef ParentName="ResourceBase">
 		<defName>DevilstrandCloth</defName>
 		<label>Mycotan faux-leather</label>
 		<description>TIER 3 - Industrial

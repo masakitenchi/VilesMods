@@ -4,6 +4,7 @@
 	<author>VileHeathen</author>
 	<supportedVersions>
         <li>1.5</li>
+        <li>1.6</li>
     </supportedVersions>
 	<packageId>vitech.materialsscience</packageId>
 <description>Version 0.1
@@ -112,4 +113,3 @@ This is the final major part of the Vile's series of overhaul mods for Hardcore 
 		<li>Ludeon.RimWorld.Ideology</li>
 	</loadAfter>
 </ModMetaData>
-

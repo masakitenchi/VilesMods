@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-	<ThingDef ParentName="WallBase">
+	<ThingDef ParentName="Wall">
 		<defName>LogWall</defName>
 		<label>cabin wall</label>
 		<description>A rustic wall made of unrefined logs. Sturdy, but uses a lot of material.</description>
@@ -52,7 +52,7 @@
 		</researchPrerequisites>
 	</ThingDef>
 	
-	<ThingDef ParentName="WallBase">
+	<ThingDef ParentName="Wall">
 		<defName>ClapboardWall</defName>
 		<label>clapboard wall</label>
 		<description>A wall with siding made of wedges split from a log (ie. firewood). It can also be made from planks. Not the most sanitary.</description>
@@ -98,7 +98,7 @@
 	</ThingDef>
 	
 
-	<ThingDef ParentName="WallBase">
+	<ThingDef ParentName="Wall">
 		<defName>BambooWall</defName>
 		<label>bamboo wall</label>
 		<description>A wall made out of unrefined bamboo.</description>
@@ -140,7 +140,7 @@
 	</ThingDef>
 
 	
-	<ThingDef ParentName="WallBase">
+	<ThingDef ParentName="Wall">
 		<defName>MudWall</defName>
 		<label>rammed-earth wall</label>
 		<description>A wall made out of compressed earth. Fireproof and stronger than you might expect, but very time consuming to make.</description>
@@ -189,7 +189,7 @@
 		</costList>
 	</ThingDef>
 	
-	<ThingDef ParentName="WallBase">
+	<ThingDef ParentName="Wall">
 		<defName>AdobeWall</defName>
 		<label>adobe wall</label>
 		<description>A wall made of earthen material and finished with stucco. Time-consuming to make, but inexpensive and fire proof.</description>
@@ -239,7 +239,7 @@
 		</costList>
 	</ThingDef>
 	
-	<ThingDef ParentName="WallBase">
+	<ThingDef ParentName="Wall">
 		<defName>WattleWall</defName>
 		<label>wattle and daub wall</label>
 		<description>A wall made of earth and clay around a wooden latticework and reinforced with straw. Uses a lot of different materials found around the building site.</description>

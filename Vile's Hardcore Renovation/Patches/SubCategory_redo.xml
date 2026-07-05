@@ -49,18 +49,6 @@
 			<label>Parquetry Set</label>
 		</value>
 	</Operation>
-	<Operation Class="SK.PatchOperationReplaceExtended">
-		<xpath>Defs/ArchitectSense.DesignationSubCategoryDef[defName = "SubCategory_RedWoodFloors"]</xpath> <!-- PARQUETRY -->
-		<value>
-			<defNames Merge="True">
-				<li>RedWoodFloorC</li> <!-- versailles -->
-				<li>RedWoodFloorD</li> <!-- ornate -->
-				<li>RedWoodFloorE</li> <!-- floral -->
-				<li>RedWoodFloor</li> <!-- Royal -->
-			</defNames>
-		</value>
-	</Operation>
-	
 	<Operation Class="PatchOperationReplace">
 		<xpath>Defs/ArchitectSense.DesignationSubCategoryDef[defName = "SubCategory_BambooFloors"]/label</xpath> <!-- PARQUETRY -->
 		<value>

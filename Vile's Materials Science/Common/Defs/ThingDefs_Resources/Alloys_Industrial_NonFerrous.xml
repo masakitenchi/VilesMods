@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-	<ThingDef ParentName="SK_ResourceBase">
+	<ThingDef ParentName="ResourceBase">
 		<defName>AluminiumBar</defName>
 		<label>pure aluminium (Al)</label>
 		<description>TIER 3 - Industrial (early)
@@ -91,7 +91,7 @@ Commercially pure aluminium is the lightest weight metal available. It has super
 		</modExtensions>
 	</ThingDef>
 	
-	<ThingDef ParentName="SK_ResourceBase">
+	<ThingDef ParentName="ResourceBase">
 		<defName>CupronickelAlloy</defName>
 		<label>brass</label>
 		<description>TIER 3 - Industrial
@@ -184,7 +184,7 @@ Brass is a conductive copper-zinc alloy. It's tougher than bronze, but softer so
 		</modExtensions>
 	</ThingDef>
 	
-	<ThingDef ParentName="SK_ResourceBase" Name="AluminiumAnodizedRed_Parent">
+	<ThingDef ParentName="ResourceBase" Name="AluminiumAnodizedRed_Parent">
 		<defName>AnodizedAluminiumRed</defName>
 		<label>anodized 3003 aluminium</label>
 		<description>TIER 3 - Industrial
@@ -321,7 +321,7 @@ Anodizing is a chemical process that not only colors and adds beauty to the 6061
 		</modExtensions>
 	</ThingDef>
 	
-	<ThingDef ParentName="SK_ResourceBase">
+	<ThingDef ParentName="ResourceBase">
 		<defName>Titanium</defName>
 		<label>pure titanium (Ti)</label>
 		<description>TIER 3 - Industrial
@@ -412,7 +412,7 @@ Many engineers consider titanium to be an over-rated metal, filling an overlappi
 		</modExtensions>
 	</ThingDef>
 
-	<ThingDef ParentName="SK_ResourceBase">
+	<ThingDef ParentName="ResourceBase">
 		<defName>DepletedUranium</defName>
 		<label>depleted uranium (DU)</label>
 		<description>TIER 3 - Industrial

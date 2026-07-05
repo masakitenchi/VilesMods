@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 	
-	<ThingDef ParentName="SK_ResourceBase">
+	<ThingDef ParentName="ResourceBase">
 		<defName>Chlorine</defName>
 		<label>Chlorine</label>
 		<description>Chlorine is a yellow-green gas which is useful in the production of several materials. It can be made along with lye by electrolyzing sodium chloride (ie. salt).</description>
@@ -28,7 +28,7 @@
 		<stackLimit>300</stackLimit>
 	</ThingDef>
 	
-	<ThingDef ParentName="SK_ResourceBase">
+	<ThingDef ParentName="ResourceBase">
 		<defName>Paraffins</defName>
 		<label>Teflon</label>
 		<description>Teflon, or PTFE, is a thermoplastic with extremely high corrosion and chemical resistance, friction resistance, and is hydrophobic. Its applications include hazmat gear, as a biomaterial, and lubricant for certain machines. It's highly toxic so best not to use it to coat your pans.</description>
@@ -55,7 +55,7 @@
 		<stackLimit>300</stackLimit>
 	</ThingDef>
 	
-	<ThingDef ParentName="SK_ResourceBase">
+	<ThingDef ParentName="ResourceBase">
 		<defName>IsopropylAlcohol</defName>
 		<label>Isopropyl Alcohol</label>
 		<description>A petrochemical derivitive used for disinfection. (work in progress)</description>
@@ -82,7 +82,7 @@
 		<stackLimit>300</stackLimit>
 	</ThingDef>
 	
-		<ThingDef ParentName="SK_ResourceBase">
+		<ThingDef ParentName="ResourceBase">
 		<defName>Lye</defName>
 		<label>Lye (sodium hydroxide)</label>
 		<description>Also known as lye or caustic soda, sodium hydroxide is useful for processing alumina from bauxite and synthesizing viscose for rayon, as well as many household uses such as bar soap and drain cleaner. It can be made along with chlorine by electrolyzing sodium chloride (ie. salt).</description>
@@ -109,7 +109,7 @@
 		<stackLimit>300</stackLimit>
 	</ThingDef>
 	
-	<ThingDef ParentName="SK_ResourceBase">
+	<ThingDef ParentName="ResourceBase">
 		<defName>Cellulose</defName>
 		<label>Cellulose</label>
 		<description>Cellulose is required to make the silk-like fabric Rayon, and Nitrocellulose, a propellant required for modern ammuntion. It can be extracted from cotton, hemp, and wood fiber.</description>
@@ -138,7 +138,7 @@
 	
 	<!-- Nitrocellulose in patches -->
 	
-	<ThingDef ParentName="SK_ResourceBase">
+	<ThingDef ParentName="ResourceBase">
 		<defName>BlackPowder</defName>
 		<label>Gunpowder</label>
 		<description>Gunpowder, also known as black powder, is the earliest known chemical explosive. It is a mixture of Sulfur, Coal Ore and Nitre. The Sulfur and Coal Ore act as fuels, and the Nitre is an oxidizer. Modern firearms use Nitrocellulose as a chamical propellant.</description>
@@ -177,7 +177,7 @@
 	</ThingDef>
 	
 	<!-- Plant Wax - replaces paraffin for candles -->
-	<ThingDef ParentName="SK_ResourceBase">
+	<ThingDef ParentName="ResourceBase">
 		<defName>PlantWax</defName>
 		<label>plant wax</label>
 		<description>Candle wax made from coconut or soybean oil.</description>

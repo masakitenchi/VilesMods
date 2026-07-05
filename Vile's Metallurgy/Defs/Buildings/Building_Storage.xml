@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 	<!-- VANILLA POT -->
-	<ThingDef ParentName="LWM_DeepStorage">
+	<ThingDef ParentName="AdaptiveStorageMinifiableBase">
 		<defName>Pot</defName>
 		<label>metal pot</label>
 		<description>A big pot made of metal; used to preserve food. Slows rotting process almost as well as glazed ceramics. Reduces spoilage by 40%. Not cheap to construct.</description>
@@ -33,6 +33,7 @@
 			<Mass>2</Mass>
 		</statBases>
 		<building>
+			<maxItemsInCell>5</maxItemsInCell>
 			<preventDeteriorationOnTop>true</preventDeteriorationOnTop>
 			<ignoreStoredThingsBeauty>true</ignoreStoredThingsBeauty>
 			<fixedStorageSettings>
@@ -48,12 +49,6 @@
 			<li Class="SK.CompProperties_RotModified">
 				<rotmodifier>0.6</rotmodifier>
 			</li>
-			<li Class="LWM.DeepStorage.Properties" >
-				<maxNumberStacks>5</maxNumberStacks>
-				<timeStoringTakes>25</timeStoringTakes>
-				<overlayType>SumOfItemsPerCell</overlayType>
-				<showContents>false</showContents>
-			</li>
 		</comps>
 		<researchPrerequisites>
 			<li>Craft_B1</li>
@@ -63,7 +58,7 @@
 	
 	<!-- CLAY POTS -->
 	
-	<ThingDef Name="Building_ClayPot" ParentName="LWM_DeepStorage" Abstract="true">
+	<ThingDef Name="Building_ClayPot" ParentName="AdaptiveStorageMinifiableBase" Abstract="true">
 		<defName>Building_ClayPot</defName>
 		<graphicData>
 			<texPath>Things/Pottery/Pot_unglazed</texPath>
@@ -84,6 +79,7 @@
 			<Mass>2</Mass>
 		</statBases>
 		<building>
+			<maxItemsInCell>5</maxItemsInCell>
 			<preventDeteriorationOnTop>true</preventDeteriorationOnTop>
 			<ignoreStoredThingsBeauty>true</ignoreStoredThingsBeauty>
 			<fixedStorageSettings>
@@ -98,12 +94,6 @@
 		<comps>
 			<li Class="SK.CompProperties_RotModified">
 				<rotmodifier>0.55</rotmodifier>
-			</li>
-			<li Class="LWM.DeepStorage.Properties" >
-				<maxNumberStacks>5</maxNumberStacks>
-				<timeStoringTakes>25</timeStoringTakes>
-				<overlayType>SumOfItemsPerCell</overlayType>
-				<showContents>false</showContents>
 			</li>
 		</comps>
 		<constructionSkillPrerequisite>1</constructionSkillPrerequisite>
@@ -259,6 +249,49 @@
 			<li>Ceramics_B1</li>
 		</researchPrerequisites>
 	</ThingDef>
+
+	<AdaptiveStorage.GraphicsDef>
+		<defName>PotASF</defName>
+		<targetDef>Pot</targetDef>
+		<graphics><li><graphicData><texPath>Things/Building/Furniture/Containers/Pot</texPath><graphicClass>Graphic_Single</graphicClass><drawRotated>false</drawRotated></graphicData></li></graphics>
+		<showContainedItems>false</showContainedItems>
+	</AdaptiveStorage.GraphicsDef>
+	<AdaptiveStorage.GraphicsDef>
+		<defName>Building_ClayPotUnglazedASF</defName>
+		<targetDef>Building_ClayPotUnglazed</targetDef>
+		<graphics><li><graphicData><texPath>Things/Pottery/Pot_unglazed</texPath><graphicClass>Graphic_Single</graphicClass><drawRotated>false</drawRotated></graphicData></li></graphics>
+		<showContainedItems>false</showContainedItems>
+	</AdaptiveStorage.GraphicsDef>
+	<AdaptiveStorage.GraphicsDef>
+		<defName>Building_ClayPotAshASF</defName>
+		<targetDef>Building_ClayPotAsh</targetDef>
+		<graphics><li><graphicData><texPath>Things/Pottery/Pot_Ash</texPath><graphicClass>Graphic_Single</graphicClass><drawRotated>false</drawRotated></graphicData></li></graphics>
+		<showContainedItems>false</showContainedItems>
+	</AdaptiveStorage.GraphicsDef>
+	<AdaptiveStorage.GraphicsDef>
+		<defName>Building_ClayPotPaintedASF</defName>
+		<targetDef>Building_ClayPotPainted</targetDef>
+		<graphics><li><graphicData><texPath>Things/Pottery/Pot_RedFigure</texPath><graphicClass>Graphic_Single</graphicClass><drawRotated>false</drawRotated></graphicData></li></graphics>
+		<showContainedItems>false</showContainedItems>
+	</AdaptiveStorage.GraphicsDef>
+	<AdaptiveStorage.GraphicsDef>
+		<defName>Building_ClayPotSaltASF</defName>
+		<targetDef>Building_ClayPotSalt</targetDef>
+		<graphics><li><graphicData><texPath>Things/Pottery/Pot_Salt</texPath><graphicClass>Graphic_Single</graphicClass><drawRotated>false</drawRotated></graphicData></li></graphics>
+		<showContainedItems>false</showContainedItems>
+	</AdaptiveStorage.GraphicsDef>
+	<AdaptiveStorage.GraphicsDef>
+		<defName>Building_ClayPotLeadASF</defName>
+		<targetDef>Building_ClayPotLead</targetDef>
+		<graphics><li><graphicData><texPath>Things/Pottery/Pot_Lead</texPath><graphicClass>Graphic_Single</graphicClass><drawRotated>false</drawRotated></graphicData></li></graphics>
+		<showContainedItems>false</showContainedItems>
+	</AdaptiveStorage.GraphicsDef>
+	<AdaptiveStorage.GraphicsDef>
+		<defName>Building_ClayPotTinASF</defName>
+		<targetDef>Building_ClayPotTin</targetDef>
+		<graphics><li><graphicData><texPath>Things/Pottery/Pot_Tin</texPath><graphicClass>Graphic_Single</graphicClass><drawRotated>false</drawRotated></graphicData></li></graphics>
+		<showContainedItems>false</showContainedItems>
+	</AdaptiveStorage.GraphicsDef>
 	
 	
 </Defs>

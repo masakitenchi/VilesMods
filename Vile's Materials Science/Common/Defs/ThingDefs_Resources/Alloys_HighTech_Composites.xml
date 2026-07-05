@@ -2,7 +2,7 @@
 <Defs>
 <!-- INDUSTRIAL -->
 	<!-- HDPE -->
-	<ThingDef ParentName="SK_ResourceBase">
+	<ThingDef ParentName="ResourceBase">
 		<defName>CarbonAlloy</defName>
 		<label>nanocomposite</label>
 		<description>TIER 4 - High Tech
@@ -96,7 +96,7 @@ Carbon nanotubes and UHMWPE fibers in an epoxy matrix. Features superior ballist
 		</modExtensions>
 	</ThingDef>
 	
-	<ThingDef ParentName="SK_ResourceBase">
+	<ThingDef ParentName="ResourceBase">
 		<defName>Aerographene</defName>
 		<label>aerographene composite</label>
 		<description>TIER 4 - High Tech

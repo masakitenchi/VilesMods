@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-	<ThingDef ParentName="SK_ResourceBase">
+	<ThingDef ParentName="ResourceBase">
 		<defName>WoolMegasloth</defName>
 		<label>Megasloth wool</label>
 		<description>TIER 1 - Neolithic
@@ -53,7 +53,7 @@ While somewhat coarse, Megasloth wool's long fibers make it very strong with fai
 		</thingCategories>
 	</ThingDef>
 	
-	<ThingDef ParentName="SK_ResourceBase">
+	<ThingDef ParentName="ResourceBase">
 		<defName>WoolBison</defName>
 		<label>Bison wool</label>
 		<description>TIER 1 - Neolithic
@@ -106,7 +106,7 @@ Thick and coarse wool of a bison. Great for winter clothes an its thickness help
 		</thingCategories>
 	</ThingDef>
 	
-	<ThingDef ParentName="SK_ResourceBase">
+	<ThingDef ParentName="ResourceBase">
 		<defName>WoolMuffalo</defName>
 		<label>Muffalo wool</label>
 		<description>TIER 1 - Neolithic
@@ -159,7 +159,7 @@ Muffalo Wool is soft, light and provides very good insulation. It's easier to wo
 		</thingCategories>
 	</ThingDef>
 	
-	<ThingDef ParentName="SK_ResourceBase">
+	<ThingDef ParentName="ResourceBase">
 		<defName>WoolAlpaca</defName>
 		<label>Alpaca wool</label>
 		<description>TIER 1 - Neolithic
@@ -212,7 +212,7 @@ Alpaca is warm and sturdy, but isn't very useful for armor.</description>
 		</thingCategories>
 	</ThingDef>
 	
-	<ThingDef ParentName="SK_ResourceBase">
+	<ThingDef ParentName="ResourceBase">
 		<defName>WoolDromedary</defName>
 		<label>Dromedary hair</label>
 		<description>TIER 1 - Neolithic
@@ -265,7 +265,7 @@ Dromedary Hair clothing is usually worn by desert travelers to protect them from
 		</thingCategories>
 	</ThingDef>
 	
-<ThingDef ParentName="SK_ResourceBase">
+<ThingDef ParentName="ResourceBase">
     <defName>WoolSheep</defName>
     <label>sheep wool</label>
     <description>TIER 1 - Neolithic

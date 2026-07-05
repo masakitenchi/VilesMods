@@ -17,7 +17,6 @@
 			<nameOnTameChance>0</nameOnTameChance>
 			<trainability>None</trainability>
 			<petness>0</petness>
-			<wildness>0.99</wildness>
             <soundMeleeHitPawn>Pawn_Melee_SmallScratch_HitPawn</soundMeleeHitPawn>
 			<soundMeleeHitBuilding>Pawn_Melee_SmallScratch_HitBuilding</soundMeleeHitBuilding>
 			<soundMeleeMiss>Pawn_Melee_SmallScratch_Miss</soundMeleeMiss>
@@ -48,7 +47,6 @@
 			<baseHungerRate>0.07</baseHungerRate>
 			<foodType>CarnivoreAnimal</foodType>
 			<meatLabel>Fish meat</meatLabel>
-			<wildness>0.99</wildness>
 			<manhunterOnTameFailChance>0.005</manhunterOnTameFailChance>
 			<manhunterOnDamageChance>0.25</manhunterOnDamageChance>
 			<gestationPeriodDays>22.0</gestationPeriodDays>
@@ -191,7 +189,6 @@
 			<foodType>OmnivoreAnimal</foodType>
 			<useMeatFrom>ThingDefFishSduiggles</useMeatFrom>
 			<meatColor>(221,123,23)</meatColor>
-			<wildness>0.99</wildness>
 			<manhunterOnTameFailChance>0.03</manhunterOnTameFailChance>
 			<manhunterOnDamageChance>0.85</manhunterOnDamageChance>
 			<gestationPeriodDays>2.0</gestationPeriodDays>
@@ -314,7 +311,6 @@
 			<foodType>OmnivoreAnimal</foodType>
 			<useMeatFrom>ThingDefFishSduiggles</useMeatFrom>
 			<meatColor>(221,123,23)</meatColor>
-			<wildness>0.99</wildness>
 			<manhunterOnTameFailChance>0.03</manhunterOnTameFailChance>
 			<manhunterOnDamageChance>0.85</manhunterOnDamageChance>
 			<gestationPeriodDays>2.0</gestationPeriodDays>
@@ -426,7 +422,6 @@
 			<foodType>OmnivoreAnimal</foodType>
 			<useMeatFrom>ThingDefFishSduiggles</useMeatFrom>
 			<meatColor>(221,123,23)</meatColor>
-			<wildness>0.99</wildness>
 			<manhunterOnTameFailChance>0.03</manhunterOnTameFailChance>
 			<manhunterOnDamageChance>0.85</manhunterOnDamageChance>
 			<gestationPeriodDays>2.0</gestationPeriodDays>
@@ -580,7 +575,6 @@
 			<foodType>OmnivoreAnimal</foodType>
 			<useMeatFrom>ThingDefFishSduiggles</useMeatFrom>
 			<meatColor>(221,123,23)</meatColor>
-			<wildness>0.99</wildness>
 			<manhunterOnTameFailChance>0.03</manhunterOnTameFailChance>
 			<manhunterOnDamageChance>0.85</manhunterOnDamageChance>
 			<gestationPeriodDays>2.0</gestationPeriodDays>
@@ -693,7 +687,6 @@
 			<foodType>OmnivoreAnimal</foodType>
 			<useMeatFrom>ThingDefFishSduiggles</useMeatFrom>
 			<meatColor>(221,123,23)</meatColor>
-			<wildness>0.99</wildness>
 			<manhunterOnTameFailChance>0.03</manhunterOnTameFailChance>
 			<manhunterOnDamageChance>0.85</manhunterOnDamageChance>
 			<gestationPeriodDays>2.0</gestationPeriodDays>
@@ -810,7 +803,6 @@
 			<foodType>OmnivoreAnimal</foodType>
 			<useMeatFrom>ThingDefFishSduiggles</useMeatFrom>
 			<meatColor>(221,123,23)</meatColor>
-			<wildness>0.99</wildness>
 			<manhunterOnTameFailChance>0.03</manhunterOnTameFailChance>
 			<manhunterOnDamageChance>0.85</manhunterOnDamageChance>
 			<gestationPeriodDays>2.0</gestationPeriodDays>
@@ -943,7 +935,6 @@
 			<foodType>OmnivoreAnimal</foodType>
 			<useMeatFrom>ThingDefFishSduiggles</useMeatFrom>
 			<meatColor>(221,123,23)</meatColor>
-			<wildness>0.99</wildness>
 			<manhunterOnTameFailChance>0.03</manhunterOnTameFailChance>
 			<manhunterOnDamageChance>0.85</manhunterOnDamageChance>
 			<gestationPeriodDays>2.0</gestationPeriodDays>
@@ -1064,7 +1055,6 @@
 			<foodType>OmnivoreAnimal</foodType>
 			<useMeatFrom>ThingDefFishSduiggles</useMeatFrom>
 			<meatColor>(221,123,23)</meatColor>
-			<wildness>0.99</wildness>
 			<manhunterOnTameFailChance>0.03</manhunterOnTameFailChance>
 			<manhunterOnDamageChance>0.85</manhunterOnDamageChance>
 			<gestationPeriodDays>2.0</gestationPeriodDays>
@@ -1207,7 +1197,6 @@
 			<foodType>OmnivoreAnimal</foodType>
 			<useMeatFrom>ThingDefFishSduiggles</useMeatFrom>
 			<meatColor>(221,123,23)</meatColor>
-			<wildness>0.99</wildness>
 			<manhunterOnTameFailChance>0.03</manhunterOnTameFailChance>
 			<manhunterOnDamageChance>0.85</manhunterOnDamageChance>
 			<gestationPeriodDays>2.0</gestationPeriodDays>
@@ -1327,7 +1316,6 @@
 			<foodType>OmnivoreAnimal</foodType>
 			<useMeatFrom>ThingDefFishSduiggles</useMeatFrom>
 			<meatColor>(221,123,23)</meatColor>
-			<wildness>0.99</wildness>
 			<manhunterOnTameFailChance>0.03</manhunterOnTameFailChance>
 			<manhunterOnDamageChance>0.85</manhunterOnDamageChance>
 			<gestationPeriodDays>2.0</gestationPeriodDays>
@@ -1448,7 +1436,6 @@
 			<foodType>OmnivoreAnimal</foodType>
 			<useMeatFrom>ThingDefFishSduiggles</useMeatFrom>
 			<meatColor>(221,123,23)</meatColor>
-			<wildness>0.99</wildness>
 			<manhunterOnTameFailChance>0.03</manhunterOnTameFailChance>
 			<manhunterOnDamageChance>0.85</manhunterOnDamageChance>
 			<gestationPeriodDays>2.0</gestationPeriodDays>
@@ -1583,7 +1570,6 @@
 			<foodType>OmnivoreAnimal</foodType>
 			<useMeatFrom>ThingDefFishSduiggles</useMeatFrom>
 			<meatColor>(221,123,23)</meatColor>
-			<wildness>0.99</wildness>
 			<manhunterOnTameFailChance>0.03</manhunterOnTameFailChance>
 			<manhunterOnDamageChance>0.85</manhunterOnDamageChance>
 			<gestationPeriodDays>2.0</gestationPeriodDays>

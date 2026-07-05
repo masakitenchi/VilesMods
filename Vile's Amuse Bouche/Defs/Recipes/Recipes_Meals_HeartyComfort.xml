@@ -32,7 +32,6 @@
 			<li>
 				<filter>
 					<thingDefs>
-						<li>Patreonbrew</li>
 						<li>Beer</li>
 					</thingDefs>
 				</filter>
@@ -46,7 +45,6 @@
 			<thingDefs>
 				<li>RawPotatoes</li>
 				<li>Meat_ThingDefFishSduiggles</li>
-				<li>Patreonbrew</li>
 				<li>Beer</li>
 			</thingDefs>
 			<specialFiltersToDisallow>
@@ -57,7 +55,6 @@
 			<thingDefs>
 				<li>RawPotatoes</li>
 				<li>Meat_ThingDefFishSduiggles</li>
-				<li>Patreonbrew</li>
 				<li>Beer</li>
 			</thingDefs>
 			</defaultIngredientFilter>
