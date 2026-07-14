@@ -61,7 +61,7 @@
 	</ThingDef>
 	
 	
-	<ThingDef ParentName="WorkTable">
+	<ThingDef ParentName="SK_WorkTable">
 		<defName>BriningStation</defName>
 		<label>brine-curing station</label>
 		<description>Fresh skins and hides are submersed in salty water and then dried to prevent rotting. The bath must be paddled by hand, but it's much faster than dry-salt curing.</description>
@@ -92,9 +92,6 @@
 			<ComponentMedieval>6</ComponentMedieval>
 		</costList>
 		<minifiedDef>MinifiedThing</minifiedDef>
-		<thingCategories>
-			<li>BuildingsProduction</li>
-		</thingCategories>
 		<statBases>
 			<WorkToBuild>1500</WorkToBuild>
 			<MaxHitPoints>150</MaxHitPoints>
@@ -106,6 +103,9 @@
 		<size>(2,2)</size>
 		<designationCategory>Production</designationCategory>
 		<interactionCellOffset>(0,0,0)</interactionCellOffset>
+		<inspectorTabs>
+			<li>ITab_Bills</li>
+		</inspectorTabs>
 		<building>
 			<uninstallWork>1000</uninstallWork>
 		</building>
@@ -138,7 +138,7 @@
 		<constructionSkillPrerequisite>4</constructionSkillPrerequisite>
 	</ThingDef>
 	
-	<ThingDef ParentName="WorkTable">
+	<ThingDef ParentName="SK_WorkTable">
 		<defName>DyeingStation</defName>
 		<label>leather-dyeing station</label>
 		<description>Top-grain leathers are manually dyed here.</description>
@@ -174,6 +174,9 @@
 		<size>(2,2)</size>
 		<designationCategory>Production</designationCategory>
 		<interactionCellOffset>(0,0,-1)</interactionCellOffset>
+		<inspectorTabs>
+			<li>ITab_Bills</li>
+		</inspectorTabs>
 		<comps>
 			<li Class="CompProperties_AffectedByFacilities">
 				<linkableFacilities>
@@ -247,7 +250,7 @@
 		<slotsCount>10</slotsCount>
 	</ThingDef>
 	
-	<ThingDef ParentName="WorkTable">
+	<ThingDef ParentName="SK_WorkTable">
 		<defName>TanningDrum</defName>
 		<label>tanning drum</label>
 		<description>Leathers are tanned here using the much faster chrome tanning process. Chrome leather tanning is the second-most most dangerous industry on The Rim, just after fission battery taste-testing. Prolongued exposure to tanning chemicals can be lethal.</description>
@@ -286,6 +289,9 @@
 		<size>(3,2)</size>
 		<designationCategory>Production</designationCategory>
 		<interactionCellOffset>(0,0,-1)</interactionCellOffset>
+		<inspectorTabs>
+			<li>ITab_Bills</li>
+		</inspectorTabs>
 		<tickerType>Normal</tickerType>
 		<comps>
 			<li Class="CompProperties_AffectedByFacilities">
@@ -303,8 +309,7 @@
 				<radius>1</radius>
 				<severityToAdd>0.0035</severityToAdd>
 			</li>
-			<li Class="CompProperties_Power">
-				<compClass>CompPowerTrader</compClass>
+			<li Class="SK.CompProperties_IdlePower">
 				<basePowerConsumption>300</basePowerConsumption>
 				<shortCircuitInRain>true</shortCircuitInRain>
 				<soundPowerOn>Power_OnSmall</soundPowerOn>

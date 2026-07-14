@@ -58,6 +58,7 @@
 		<description>A wall with siding made of wedges split from a log (ie. firewood). It can also be made from planks. Not the most sanitary.</description>
 		<graphicData>
 			<texPath>Things/Building/Walls/Wall_Atlas_Clapboard</texPath> <!-- leaving this in linked in case later decide to do separate appearances -->
+			<graphicClass>Graphic_Single</graphicClass>
 			<shaderType>CutoutComplex</shaderType>
 			<linkType>CornerFiller</linkType>
 			<linkFlags>
@@ -88,7 +89,7 @@
 			<Beauty>-1</Beauty>
 			<Cleanliness>-0.2</Cleanliness>
 		</statBases>
-		<stuffCategories>
+		<stuffCategories Inherit="False">
 			<li>WoodLogs</li>
 			<li>SoftwoodLumber</li>
 			<li>HardwoodLumber</li>
