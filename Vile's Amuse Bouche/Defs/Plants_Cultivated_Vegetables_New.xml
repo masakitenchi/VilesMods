@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <Defs>
 
-	<ThingDef ParentName="PlantBase">
+	<ThingDef ParentName="CropPlant">
 		<defName>PepperPlant</defName>
 		<label>Pepper Plant</label>
 		<description>Hot Peppers are useful for making spicy meals, but don't pack a lot of calories.</description>

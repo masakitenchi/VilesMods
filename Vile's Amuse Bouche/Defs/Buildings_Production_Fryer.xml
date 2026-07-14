@@ -66,6 +66,9 @@
 		<label>deep fryer</label>
 		<thingClass>SK.Building_WorkTable_HeatPushAdvanced</thingClass>
 		<description>A deep fryer filled with hot cooking oil. Requires power.</description>
+		<inspectorTabs>
+			<li>ITab_Bills</li>
+		</inspectorTabs>
 		<graphicData>
 			<texPath>Things/Building/Production/FoodStuff/Fryer</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -108,13 +111,9 @@
 		</recipes>
 		<tickerType>Normal</tickerType>
 		<comps>
-			<li Class="CompProperties_Power">
-				<compClass>CompPowerTrader</compClass>
+			<li Class="SK.CompProperties_IdlePower">
 				<shortCircuitInRain>true</shortCircuitInRain>
 				<basePowerConsumption>200</basePowerConsumption>
-			</li>
-			<li Class="SK.CompProperties_LowIdleDraw">
-				<compClass>SK.CompPowerLowIdleDraw</compClass>
 				<idlePowerFactor>0.1</idlePowerFactor>
 			</li>
 			<li Class="CompProperties_HeatPusher">
