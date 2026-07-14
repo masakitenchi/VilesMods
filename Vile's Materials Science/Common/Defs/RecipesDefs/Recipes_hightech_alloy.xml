@@ -512,7 +512,7 @@
 			</thingDefs>
 		</fixedIngredientFilter>
 		<products>
-			<TitaniumBar>25</TitaniumBar>
+			<Plasteel>25</Plasteel>
 		</products>
 		<skillRequirements>
 			<Crafting>17</Crafting>

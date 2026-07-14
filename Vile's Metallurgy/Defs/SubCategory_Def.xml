@@ -7,6 +7,7 @@
 		<defNames>
 			<li>Kiln</li>
 			<li>CementationFurnace</li>
+			<li>PotteryStation</li>
 		</defNames>
 		<designationCategory>Production</designationCategory>
 		<debug>false</debug>
@@ -17,6 +18,7 @@
 		<label>Glazed Ceramics</label>
 		<description>Ceramic pots.</description>
 		<defNames>
+			<li>Building_ClayPotUnglazed</li>
 			<li>Building_ClayPotAsh</li>
 			<li>Building_ClayPotPainted</li>
 			<li>Building_ClayPotSalt</li>

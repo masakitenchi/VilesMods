@@ -1,7 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
 
-	<ThingDef Class="SK.ThingDef_AnimatedWorktable" ParentName="WorkTable">
+	<!-- ElectricSmelter is patched onto Core_SK's existing definition in ElectricSmelter_Patch.xml.
+	<ThingDef Class="SK.ThingDef_AnimatedWorktable" ParentName="SK_WorkTable">
 		<defName>ElectricSmelter</defName>
 		<label>metal extraction plant</label>
 		<thingClass>SK.Building_AnimatedWorktable</thingClass>
@@ -39,6 +40,9 @@
 			<Cleanliness>-8</Cleanliness>
 		</statBases>
 		<size>(5,2)</size>
+		<inspectorTabs>
+			<li>ITab_Bills</li>
+		</inspectorTabs>
 		<designationCategory>Production</designationCategory>
 		<interactionCellOffset>(0,0,-1)</interactionCellOffset>
 		<recipes>
@@ -49,9 +53,9 @@
 			<li>SmeltMagnetite_Industrial</li>
 			<li>SmeltBogIron_Industrial</li>
 			<li>SmeltTitanomagnetite_Industrial</li>
-			<li>SmeltKalcopyrite_Basic</li> <!-- kalkopyrite basic -->
+			<li>SmeltKalcopyrite_Basic</li>
 			<li>SmeltKalcopyrite_Industrial</li>
-			<li>SmeltCassiterite_Basic</li> <!-- cassiteraite basic -->
+			<li>SmeltCassiterite_Basic</li>
 			<li>SmeltCassiterite_Industrial</li>
 			<li>SmeltGalena_Basic</li>
 			<li>SmeltGalena_Industrial</li>
@@ -115,8 +119,9 @@
 		<designationHotKey>Misc4</designationHotKey>
 		<constructionSkillPrerequisite>9</constructionSkillPrerequisite>
 	</ThingDef>
+	-->
 
-	<ThingDef ParentName="WorkTable">
+	<ThingDef ParentName="SK_WorkTable">
 		<defName>ElectrolyticRefinery</defName>
 		<label>electrolytic refinery</label>
 		<description>Electroextraction of base metals from their ores in a solution. Extracts more useful material than traditional pyroextraction but uses a lot of power. NOTICE: Operates very slowly unless connected to an extraction plant.</description>
@@ -140,6 +145,9 @@
 		<stuffCategories>
 			<li>CorrosionResistant</li>
 		</stuffCategories>
+		<inspectorTabs>
+			<li>ITab_Bills</li>
+		</inspectorTabs>
 		<costStuffCount>60</costStuffCount>
 		<costList>
 			<ComponentIndustrial>12</ComponentIndustrial>
@@ -173,18 +181,14 @@
 		</recipes>
 		<tickerType>Normal</tickerType>
 		<comps>
-			<li Class="CompProperties_Power">
-				<compClass>CompPowerTrader</compClass>
+			<li Class="SK.CompProperties_IdlePower">
 				<basePowerConsumption>2000</basePowerConsumption>
 				<shortCircuitInRain>false</shortCircuitInRain>
+				<idlePowerFactor>0.1</idlePowerFactor>
 			</li>
 			<li Class="CompProperties_Glower">
 				<glowRadius>1</glowRadius>
 				<glowColor>(237,60,33,0)</glowColor>
-			</li>
-			<li Class="SK.CompProperties_LowIdleDraw">
-				<compClass>SK.CompPowerLowIdleDraw</compClass>
-				<idlePowerFactor>0.1</idlePowerFactor>
 			</li>
 			<li Class="CompProperties_Flickable" />
 			<li Class="CompProperties_Breakdownable" />
@@ -235,7 +239,7 @@
 	</ThingDef>
 
 
-	<ThingDef Class="SK.ThingDef_AnimatedWorktable" ParentName="WorkTable">
+	<ThingDef Class="SK.ThingDef_AnimatedWorktable" ParentName="SK_WorkTable">
 		<defName>InductionFurnace</defName>
 		<label>induction furnace</label>
 		<description>A furnace which produces alloys from base metals. Requires power.</description>
@@ -259,6 +263,9 @@
 		<stuffCategories>
 			<li>RuggedMetallic</li>
 		</stuffCategories>
+		<inspectorTabs>
+			<li>ITab_Bills</li>
+		</inspectorTabs>
 		<costStuffCount>155</costStuffCount>
 		<costList>
 			<ComponentIndustrial>12</ComponentIndustrial>
@@ -301,10 +308,10 @@
 		</recipes>
 		<tickerType>Normal</tickerType>
 		<comps>
-			<li Class="CompProperties_Power">
-				<compClass>CompPowerTrader</compClass>
+			<li Class="SK.CompProperties_IdlePower">
 				<basePowerConsumption>950</basePowerConsumption>
 				<shortCircuitInRain>true</shortCircuitInRain>
+				<idlePowerFactor>0.25</idlePowerFactor>
 			</li>
 			<li Class="CompProperties_Glower">
 				<glowRadius>3</glowRadius>
@@ -316,10 +323,6 @@
 				<compClass>CompHeatPusherPowered</compClass>
 				<heatPerSecond>9.5</heatPerSecond>
 				<heatPushMaxTemperature>75</heatPushMaxTemperature>
-			</li>
-			<li Class="SK.CompProperties_LowIdleDraw">
-				<compClass>SK.CompPowerLowIdleDraw</compClass>
-				<idlePowerFactor>0.25</idlePowerFactor>
 			</li>
 			<li Class="CompProperties_AffectedByFacilities">
 				<linkableFacilities>
@@ -343,7 +346,7 @@
 		<constructionSkillPrerequisite>9</constructionSkillPrerequisite>
 	</ThingDef>
 
-	<ThingDef ParentName="WorkTable">
+	<ThingDef ParentName="SK_WorkTable">
 		<defName>ChemistryLab</defName>
 		<label>Chemistry Station</label>
 		<description>A table and all the tools needed for mixing and manipulated chemicals. Constructed of corrosion-resistant materials.</description>
@@ -368,15 +371,15 @@
 		<stuffCategories>
 			<li>CorrosionResistant</li>
 		</stuffCategories>
+		<inspectorTabs>
+			<li>ITab_Bills</li>
+		</inspectorTabs>
 		<costStuffCount>120</costStuffCount>
 		<costList>
 			<Glass>80</Glass>
 			<ComponentIndustrial>8</ComponentIndustrial>
 		</costList>
 		<minifiedDef>MinifiedThing</minifiedDef>
-		<thingCategories>
-			<li>BuildingsProduction</li>
-		</thingCategories>
 		<statBases>
 			<WorkToBuild>2800</WorkToBuild>
 			<MaxHitPoints>180</MaxHitPoints>

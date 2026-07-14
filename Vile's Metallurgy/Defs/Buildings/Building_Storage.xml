@@ -254,43 +254,43 @@
 		<defName>PotASF</defName>
 		<targetDef>Pot</targetDef>
 		<graphics><li><graphicData><texPath>Things/Building/Furniture/Containers/Pot</texPath><graphicClass>Graphic_Single</graphicClass><drawRotated>false</drawRotated></graphicData></li></graphics>
-		<showContainedItems>false</showContainedItems>
+		<showContainedItems>true</showContainedItems>
 	</AdaptiveStorage.GraphicsDef>
 	<AdaptiveStorage.GraphicsDef>
 		<defName>Building_ClayPotUnglazedASF</defName>
 		<targetDef>Building_ClayPotUnglazed</targetDef>
 		<graphics><li><graphicData><texPath>Things/Pottery/Pot_unglazed</texPath><graphicClass>Graphic_Single</graphicClass><drawRotated>false</drawRotated></graphicData></li></graphics>
-		<showContainedItems>false</showContainedItems>
+		<showContainedItems>true</showContainedItems>
 	</AdaptiveStorage.GraphicsDef>
 	<AdaptiveStorage.GraphicsDef>
 		<defName>Building_ClayPotAshASF</defName>
 		<targetDef>Building_ClayPotAsh</targetDef>
 		<graphics><li><graphicData><texPath>Things/Pottery/Pot_Ash</texPath><graphicClass>Graphic_Single</graphicClass><drawRotated>false</drawRotated></graphicData></li></graphics>
-		<showContainedItems>false</showContainedItems>
+		<showContainedItems>true</showContainedItems>
 	</AdaptiveStorage.GraphicsDef>
 	<AdaptiveStorage.GraphicsDef>
 		<defName>Building_ClayPotPaintedASF</defName>
 		<targetDef>Building_ClayPotPainted</targetDef>
 		<graphics><li><graphicData><texPath>Things/Pottery/Pot_RedFigure</texPath><graphicClass>Graphic_Single</graphicClass><drawRotated>false</drawRotated></graphicData></li></graphics>
-		<showContainedItems>false</showContainedItems>
+		<showContainedItems>true</showContainedItems>
 	</AdaptiveStorage.GraphicsDef>
 	<AdaptiveStorage.GraphicsDef>
 		<defName>Building_ClayPotSaltASF</defName>
 		<targetDef>Building_ClayPotSalt</targetDef>
 		<graphics><li><graphicData><texPath>Things/Pottery/Pot_Salt</texPath><graphicClass>Graphic_Single</graphicClass><drawRotated>false</drawRotated></graphicData></li></graphics>
-		<showContainedItems>false</showContainedItems>
+		<showContainedItems>true</showContainedItems>
 	</AdaptiveStorage.GraphicsDef>
 	<AdaptiveStorage.GraphicsDef>
 		<defName>Building_ClayPotLeadASF</defName>
 		<targetDef>Building_ClayPotLead</targetDef>
 		<graphics><li><graphicData><texPath>Things/Pottery/Pot_Lead</texPath><graphicClass>Graphic_Single</graphicClass><drawRotated>false</drawRotated></graphicData></li></graphics>
-		<showContainedItems>false</showContainedItems>
+		<showContainedItems>true</showContainedItems>
 	</AdaptiveStorage.GraphicsDef>
 	<AdaptiveStorage.GraphicsDef>
 		<defName>Building_ClayPotTinASF</defName>
 		<targetDef>Building_ClayPotTin</targetDef>
 		<graphics><li><graphicData><texPath>Things/Pottery/Pot_Tin</texPath><graphicClass>Graphic_Single</graphicClass><drawRotated>false</drawRotated></graphicData></li></graphics>
-		<showContainedItems>false</showContainedItems>
+		<showContainedItems>true</showContainedItems>
 	</AdaptiveStorage.GraphicsDef>
 	
 	

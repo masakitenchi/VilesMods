@@ -8,6 +8,13 @@
 		</value>
 	</Operation>
 
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ArchitectSense.DesignationSubCategoryDef[defName="SubCategory_Medicine"]/defNames</xpath>
+		<value>
+			<li>ChemistryLab</li>
+		</value>
+	</Operation>
+
 	<Operation Class="SK.PatchOperationReplaceExtended">
 		<xpath>
 			Defs/ArchitectSense.DesignationSubCategoryDef[defName="SubCategory_Furnaces"]</xpath>
@@ -17,7 +24,7 @@
 				<li>Bloomery</li>
 				<li>TableFurnace</li>
 				<li>ElectricSmelter</li>
-				<li>ElecrolyticRefinery</li>
+				<li>ElectrolyticRefinery</li>
 			</defNames>
 		</value>
 	</Operation>
