@@ -41,7 +41,7 @@
 			<WorkToBuild>500</WorkToBuild> <!-- vanilla is 270 -->
 			<Flammability>1.0</Flammability>
 		</statBases>
-		<stuffCategories>
+		<stuffCategories Inherit="False">
 			<li>Softwoods</li>
 			<li>Hardwoods</li>
 			<li>Ultrahardwoods</li>
