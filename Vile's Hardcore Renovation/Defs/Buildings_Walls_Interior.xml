@@ -141,7 +141,7 @@
 		</statBases>
 		<coversFloor>true</coversFloor>
 		<tickerType>Never</tickerType>
-		<stuffCategories>
+		<stuffCategories Inherit="False">
 			<li>SoftwoodLumber</li>
 			<li>HardwoodLumber</li>
 			<li>UltrahardwoodLumber</li>
@@ -245,7 +245,7 @@
 		</statBases>
 		<coversFloor>true</coversFloor>
 		<tickerType>Never</tickerType>
-		<stuffCategories>
+		<stuffCategories Inherit="False">
 			<li>SoftwoodLumber</li>
 			<li>HardwoodLumber</li>
 			<li>UltrahardwoodLumber</li>
@@ -296,7 +296,7 @@
 		</statBases>
 		<coversFloor>true</coversFloor>
 		<tickerType>Never</tickerType>
-		<stuffCategories>
+		<stuffCategories Inherit="False">
 			<li>Ceramic</li>
 		</stuffCategories>
 		<costStuffCount>5</costStuffCount>

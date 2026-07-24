@@ -134,7 +134,7 @@
 			<Flammability>1.0</Flammability>
 		</statBases>
 		<blockWind>false</blockWind>
-		<stuffCategories>
+		<stuffCategories Inherit="False">
 			<li>Bambooish</li>
 		</stuffCategories>
 		<costStuffCount>4</costStuffCount>
@@ -181,7 +181,7 @@
 			<WorkToBuild>700</WorkToBuild> <!-- vanilla is 270 -->
 			<Flammability>0.0</Flammability>
 		</statBases>
-		<stuffCategories>
+		<stuffCategories Inherit="False">
 			<li>Aggregate</li>
 		</stuffCategories>
 		<costStuffCount>6</costStuffCount>
@@ -230,7 +230,7 @@
 			<WorkToBuild>550</WorkToBuild> <!-- vanilla is 270 -->
 			<Flammability>0.0</Flammability>
 		</statBases>
-		<stuffCategories>
+		<stuffCategories Inherit="False">
 			<li>Aggregate</li>
 		</stuffCategories>
 		<costStuffCount>5</costStuffCount>
@@ -281,7 +281,7 @@
 			<Flammability>0.8</Flammability>
 			<Beauty>0</Beauty>
 		</statBases>
-		<stuffCategories>
+		<stuffCategories Inherit="False">
 			<li>Aggregate</li>
 		</stuffCategories>
 		<costStuffCount>2</costStuffCount>
