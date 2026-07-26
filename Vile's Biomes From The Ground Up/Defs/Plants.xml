@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Defs>
 
-	<ThingDef ParentName="TreewoodBase">
+	<ThingDef ParentName="TreeBase">
 		<defName>Plant_TreeSpruce</defName>
 		<label>spruce tree</label>
 		<description>The Black Spruce is a slow-growing conifer often found in cold taiga regions, and though short for a tree, the spruce will be the tallest thing you might find in a peat bog. Due to its small size, its wood its only useful as pulp or firewood.</description>
@@ -41,7 +41,7 @@
 		</modExtensions>
 	</ThingDef>
 	
-	<ThingDef ParentName="TreewoodBase">
+	<ThingDef ParentName="TreeBase">
 		<defName>Plant_TreePalmetto</defName>
 		<label>palmetto</label>
 		<description>A type of palm</description>
@@ -78,7 +78,7 @@
 		</modExtensions>-->
 	</ThingDef>
 	
-	<ThingDef ParentName="TreewoodBase">
+	<ThingDef ParentName="TreeBase">
 		<defName>Plant_TreeKapok</defName>
 		<label>kapok tree</label>
 		<description>A gigantic tropical tree known for creating a canopy over rainforests. The wood is extremely low density and can only be used for construction if processed into chipboard.</description>
@@ -460,7 +460,7 @@
 		
 	</ThingDef>
 
-	<ThingDef ParentName="TreewoodBase">
+	<ThingDef ParentName="TreeBase">
 		<defName>Plant_TreeAcacia</defName>
 		<label>acacia tree</label>
 		<description>A common savanna tree.</description>
@@ -541,7 +541,7 @@
 		</plant>
 	</ThingDef>
 	
-	<ThingDef ParentName="SK_DeciduousTreeBase">
+	<ThingDef ParentName="DeciduousTreeBase">
 		<defName>Plant_TreeDwarfWillow</defName>
 		<label>dwarf willow tree</label>
 		<description>A variety of willow that has adapted to growing in cold environments. Due to its small stature, it's only useful for pulp and firewood.</description>
