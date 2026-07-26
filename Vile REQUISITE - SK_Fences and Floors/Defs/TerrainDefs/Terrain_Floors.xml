@@ -118,7 +118,7 @@
 			<WorkToBuild>300</WorkToBuild>
 		</statBases>
 		<costList>
-		    <Plasteel>4</Plasteel>
+		    <Steel>4</Steel>
 			<ComponentIndustrial>1</ComponentIndustrial>
 		</costList>
 		<researchPrerequisites>
