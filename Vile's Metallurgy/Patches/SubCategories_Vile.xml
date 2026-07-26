@@ -2,9 +2,9 @@
 
 <Patch>
 
-	<Operation Class="PatchOperationRemove">
+<!-- 	<Operation Class="PatchOperationRemove">
 		<xpath>Defs/ArchitectSense.DesignationSubCategoryDef[defName="SubCategory_Conversion"]/defNames/li[text()="Kiln"]</xpath>
-	</Operation>
+	</Operation> -->
 
 	<Operation Class="PatchOperationAdd">
 		<xpath>Defs/ArchitectSense.DesignationSubCategoryDef[defName="SubCategory_Facilities"]/defNames</xpath>
