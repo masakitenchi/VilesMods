@@ -54,6 +54,10 @@
 			<thingDefs>
 				<li>Corpse_Duck</li>
 				<li>Raworange</li>
+				<li>WildRose</li>
+				<li>Hypericum</li>
+				<li>MintLeaves</li>
+				<li>Rawonion</li>
 			</thingDefs>
 			<categories>
 				<li>ExtraPlantFoodRaw</li>
@@ -67,6 +71,10 @@
 			<thingDefs>
 				<li>Corpse_Duck</li>
 				<li>Raworange</li>
+				<li>WildRose</li>
+				<li>Hypericum</li>
+				<li>MintLeaves</li>
+				<li>Rawonion</li>
 			</thingDefs>
 			<categories>
 				<li>ExtraPlantFoodRaw</li>
@@ -151,6 +159,10 @@
 				<li>Corpse_Turkey</li>
 				<li>Corpse_Goose</li>
 				<li>bread</li>
+				<li>WildRose</li>
+				<li>Hypericum</li>
+				<li>MintLeaves</li>
+				<li>Rawonion</li>
 			</thingDefs>
 			<categories>
 				<li>LuxuryStuffs</li>
@@ -167,6 +179,10 @@
 				<li>Corpse_Turkey</li>
 				<li>Corpse_Goose</li>
 				<li>bread</li>
+				<li>WildRose</li>
+				<li>Hypericum</li>
+				<li>MintLeaves</li>
+				<li>Rawonion</li>
 			</thingDefs>
 			<categories>
 				<li>LuxuryStuffs</li>
@@ -258,6 +274,10 @@
 				<li>Alcohol_Brandy</li>
 				<li>Alcohol_Wine</li>
 				<li>Seitan</li>
+				<li>WildRose</li>
+				<li>Hypericum</li>
+				<li>MintLeaves</li>
+				<li>Rawonion</li>
 			</thingDefs>
 			<categories>
 				<li>LuxuryStuffs</li>
@@ -277,6 +297,10 @@
 				<li>Alcohol_Brandy</li>
 				<li>Alcohol_Wine</li>
 				<li>Seitan</li>
+				<li>WildRose</li>
+				<li>Hypericum</li>
+				<li>MintLeaves</li>
+				<li>Rawonion</li>
 			</thingDefs>
 			<categories>
 				<li>LuxuryStuffs</li>

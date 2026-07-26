@@ -193,6 +193,10 @@
 				<li>Pasta</li>
 				<li>Meat_Muffalo</li>
 				<li>Tofu</li>
+				<li>WildRose</li>
+				<li>Hypericum</li>
+				<li>MintLeaves</li>
+				<li>Rawonion</li>
 			</thingDefs>
 			<specialFiltersToDisallow>
 				<li>AllowPlantFood</li>
@@ -206,6 +210,10 @@
 				<li>Pasta</li>
 				<li>Meat_Muffalo</li>
 				<li>Tofu</li>
+				<li>WildRose</li>
+				<li>Hypericum</li>
+				<li>MintLeaves</li>
+				<li>Rawonion</li>
 			</thingDefs>
 		</defaultIngredientFilter>
 		<skillRequirements>
