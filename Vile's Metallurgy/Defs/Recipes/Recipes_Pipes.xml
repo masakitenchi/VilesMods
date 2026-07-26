@@ -57,20 +57,20 @@
 		<ingredients>
 			<li>
 				<filter>
-					<categories>
+					<stuffCategoriesToAllow>
 						<li>Metallic</li>
-					</categories>
+					</stuffCategoriesToAllow>
 				</filter>
 				<count>10</count>
 			</li>
 		</ingredients>
 		<fixedIngredientFilter>
-			<categories>
+			<stuffCategoriesToAllow>
 				<li>Metallic</li>
-			</categories>
+			</stuffCategoriesToAllow>
 			<disallowedThingDefs>
 				<li>CastIron</li>
-			</disallowedThingDefs>	
+			</disallowedThingDefs>
 		</fixedIngredientFilter>
 		<products>
 			<PipeSection>4</PipeSection>

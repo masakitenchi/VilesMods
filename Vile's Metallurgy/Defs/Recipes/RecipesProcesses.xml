@@ -223,7 +223,6 @@
 		<fixedIngredientFilter>
 			<thingDefs>
 				<li>WroughtIron</li>
-				<li>ClayPot</li>
 				<li>Kindling</li>
 			</thingDefs>
 		</fixedIngredientFilter>
@@ -273,7 +272,6 @@
 		<fixedIngredientFilter>
 			<thingDefs>
 				<li>WroughtIron</li>
-				<li>ClayPot</li>
 				<li>PigIron</li>
 			</thingDefs>
 		</fixedIngredientFilter>

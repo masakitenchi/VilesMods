@@ -176,7 +176,7 @@
 		<defaultIngredientFilter>
 			<thingDefs>
 				<li>Bronze</li>	
-				<li>Plasteel</li>			
+				<li>Steel</li>
 			</thingDefs>
 			<disallowedThingDefs>
 				<li>FerrosiliconAlloy</li>
@@ -228,6 +228,10 @@
 			<categories>
 				<li>CastBar</li>
 			</categories>
+			<thingDefs>
+				<li>SandResource</li>
+				<li>SoftClay</li>
+			</thingDefs>
 		</fixedIngredientFilter>
 		<defaultIngredientFilter>
 			<categories>

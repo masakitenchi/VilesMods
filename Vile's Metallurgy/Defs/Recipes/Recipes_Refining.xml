@@ -97,7 +97,7 @@
 	<RecipeDef>
 		<defName>MakeForgeWeldedSteel_Smithy</defName>
 		<label>Forge-Weld Steel (x15)</label>
-		<description>Repeatedly fold wrought iron in a coal fire to carbonize it producing a strong bar with up to hundreds of layers of soft iron and hard steel. Produces 25.</description>
+		<description>Repeatedly fold wrought iron in a coal fire to carbonize it producing a strong bar with up to hundreds of layers of soft iron and hard steel. Produces 15.</description>
 		<jobString>Forge-welding steel.</jobString>
 		<workAmount>900</workAmount>
 		<workSpeedStat>SmithingSpeed</workSpeedStat>
@@ -151,7 +151,7 @@
 	<RecipeDef>
 		<defName>MakeForgeWeldedSteel_Finery</defName>
 		<label>Forge-Weld Steel (x15)</label>
-		<description>Fold wrought iron in a coal fire to carbonize it producing a strong bar with up to hundreds of layers of soft iron and hard steel. Produces 20.</description>
+		<description>Fold wrought iron in a coal fire to carbonize it producing a strong bar with up to hundreds of layers of soft iron and hard steel. Produces 15.</description>
 		<jobString>Forging-weld steel.</jobString>
 		<workAmount>750</workAmount>
 		<workSpeedStat>SmithingSpeed</workSpeedStat>
@@ -206,7 +206,7 @@
 	<RecipeDef>
 		<defName>MakeWroughtIron_PigIron_Finery</defName>
 		<label>Forge wrought iron from pig iron (x30)</label>
-		<description>Hot-working slag out of the bloom with a hammer and forging it into semi-finished wrought iron bars. Produces 25.</description>
+		<description>Hot-working slag out of the bloom with a hammer and forging it into semi-finished wrought iron bars. Produces 30.</description>
 		<jobString>Forging wrought iron.</jobString>
 		<workAmount>750</workAmount>
 		<workSpeedStat>SmithingSpeed</workSpeedStat>
@@ -261,7 +261,7 @@
 	<RecipeDef>
 		<defName>MakeForgeWeldedSteel_BlisterSteel_Finery</defName>
 		<label>Forge Shear Steel (x30)</label>
-		<description>Blister steel has an uneven distribution of carbon, in other words, it's nonhomogenous. Beat it on an anvil until it (mostly) is. This is called "shear steel", because it can hold an sharp edge if you wanted to make some shears, but it's still a forge-welded steel. Produced 20 Forge-Welded Steel.</description>
+		<description>Blister steel has an uneven distribution of carbon, in other words, it's nonhomogenous. Beat it on an anvil until it (mostly) is. This is called "shear steel", because it can hold an sharp edge if you wanted to make some shears, but it's still a forge-welded steel. Produces 30 Forge-Welded Steel.</description>
 		<jobString>Forging-welding steel form blister steel. Produces 30.</jobString>
 		<workAmount>750</workAmount>
 		<workSpeedStat>SmithingSpeed</workSpeedStat>
@@ -509,4 +509,3 @@
 	</RecipeDef>
 	
 </Defs>
-	
