@@ -91,6 +91,7 @@
 	<!-- blast furnace recipe users in building def -->
 
 	
+	<!-- Disabled duplicate Def: Core_SK owns this Def; Metallurgy differences are applied by Patches/Core_SK_Overlap.xml.
 	<RecipeDef>
 		<defName>MakeBronze_Hand</defName>
 		<label>Smelt bronze (x25)</label>
@@ -140,6 +141,7 @@
 
 	</recipeUsers>
 	</RecipeDef>
+	-->
 	
 	<RecipeDef>
 		<defName>MakeBronze_Foundry</defName>
@@ -193,6 +195,7 @@
 	
 	<!-- SMELT Copper -->
 	
+	<!-- Disabled duplicate Def: Core_SK owns this Def; Metallurgy differences are applied by Patches/Core_SK_Overlap.xml.
 	<RecipeDef>
 		<defName>MakeCopperBars_Hand</defName>
 		<label>Smelt copper (x10)</label>
@@ -230,6 +233,7 @@
 
 	</recipeUsers>
 	</RecipeDef>
+	-->
 	
 	<RecipeDef>
 		<defName>MakeCopperBars_Foundry</defName>
@@ -269,6 +273,7 @@
 	</RecipeDef>
 	
 	<!-- SMELT TIN -->
+	<!-- Disabled duplicate Def: Core_SK owns this Def; Metallurgy differences are applied by Patches/Core_SK_Overlap.xml.
 	<RecipeDef>
 		<defName>MakeTinBars_Hand</defName>
 		<label>Smelt tin alloy (x10)</label>
@@ -307,6 +312,7 @@
 
 	</recipeUsers>
 	</RecipeDef>
+	-->
 	
 	<RecipeDef>
 		<defName>MakeTinBars_Foundry</defName>
@@ -347,6 +353,7 @@
 	</RecipeDef>
 
 	<!-- SMELT lead -->
+	<!-- Disabled duplicate Def: Core_SK owns this Def; Metallurgy differences are applied by Patches/Core_SK_Overlap.xml.
 	<RecipeDef>
 		<defName>MakeLeadBars_Hand</defName>
 		<label>Smelt lead alloy (x15)</label>
@@ -385,6 +392,7 @@
         <li>TableFurnace</li>
 	</recipeUsers>
 	</RecipeDef>
+	-->
 	
 	<RecipeDef>
 		<defName>MakeLeadBars_Foundry</defName>
@@ -426,6 +434,7 @@
 	</RecipeDef>
 	
 	<!-- SMELT Sterling silver -->
+	<!-- Disabled duplicate Def: Core_SK owns this Def; Metallurgy differences are applied by Patches/Core_SK_Overlap.xml.
 	<RecipeDef>
 		<defName>MakeSilverBars_Hand</defName>
 		<label>Smelt sterling silver alloy</label>
@@ -474,8 +483,10 @@
 		<li>FirePit</li>
 	</recipeUsers>
 	</RecipeDef>
+	-->
 	
 	<!-- SMELT Yellow Gold -->
+	<!-- Disabled duplicate Def: Core_SK owns this Def; Metallurgy differences are applied by Patches/Core_SK_Overlap.xml.
 	<RecipeDef>
 		<defName>MakeGoldBars_Hand</defName>
 		<label>Smelt gold alloy</label>
@@ -524,6 +535,7 @@
 		<li>FirePit</li>
 	</recipeUsers>
 	</RecipeDef>
+	-->
 	
 	
 </Defs>

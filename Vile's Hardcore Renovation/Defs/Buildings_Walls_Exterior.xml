@@ -106,6 +106,7 @@
 		<graphicData>
 			<shaderType>CutoutComplex</shaderType>
 			<texPath>Things/Building/Walls/Wall_Atlas_Bamboo</texPath> <!-- leaving this in linked in case later decide to do separate appearances -->
+			<graphicClass>Graphic_Single</graphicClass>
 			<linkType>CornerFiller</linkType>
 			<linkFlags>
 				<li>Wall</li>
@@ -148,6 +149,7 @@
 		<graphicData>
 			<!--<shaderType>CutoutComplex</shaderType>-->
 			<texPath>Things/Building/Walls/Wall_Atlas_Mud</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
 			<linkType>CornerFiller</linkType>
 			<linkFlags>
 				<li>Wall</li>
@@ -197,6 +199,7 @@
 		<graphicData>
 			<!--<shaderType>CutoutComplex</shaderType>-->
 			<texPath>Things/Building/Walls/Wall_Atlas_Adobe</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
 			<linkType>CornerFiller</linkType>
 			<linkFlags>
 				<li>Wall</li>
@@ -247,6 +250,7 @@
 		<graphicData>
 			<shaderType>CutoutComplex</shaderType>
 			<texPath>Things/Building/Walls/Wall_Atlas_Wattle/Wall_Atlas_WattleB</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
 			<!--<graphicClass>Graphic_Random</graphicClass>-->
 			<linkType>CornerFiller</linkType>
 			<linkFlags>

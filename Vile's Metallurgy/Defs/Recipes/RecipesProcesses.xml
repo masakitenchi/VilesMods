@@ -316,6 +316,7 @@
 		</recipeUsers>
 	</RecipeDef>
 	
+<!-- Disabled duplicate Def: Core_SK owns this Def; Metallurgy differences are applied by Patches/Core_SK_Overlap.xml.
 <RecipeDef Class="UniversalFermenterSK.RecipeDef_UF">
 		<defName>MakeClayBricks</defName>
 		<label>bake clay bricks (x30)</label>
@@ -344,6 +345,7 @@
 			<li>Kiln</li>
 		</recipeUsers>
 	</RecipeDef>
+-->
 	
 <RecipeDef Class="UniversalFermenterSK.RecipeDef_UF">
 		<defName>MakeBlocksSandstoneCementation</defName>
@@ -373,6 +375,7 @@
 			<li>CementationFurnace</li>
 		</recipeUsers>
 	</RecipeDef>
+<!-- Disabled duplicate Def: Core_SK owns this Def; Metallurgy differences are applied by Patches/Core_SK_Overlap.xml.
 <RecipeDef Class="UniversalFermenterSK.RecipeDef_UF">
 		<defName>MakeBlocksSandstone</defName>
 		<label>bake sandstone blocks (x20)</label>
@@ -401,6 +404,7 @@
 			<li>Kiln</li>
 		</recipeUsers>
 	</RecipeDef>
+-->
 	
 <RecipeDef Class="UniversalFermenterSK.RecipeDef_UF">
 		<defName>MakeCeramics_Process</defName>

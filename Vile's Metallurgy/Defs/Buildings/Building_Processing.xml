@@ -8,6 +8,7 @@
 	</ThingDef>
 
 
+	<!-- Disabled duplicate Def: Core_SK owns this Def; Metallurgy differences are applied by Patches/Core_SK_Overlap.xml.
 	<ThingDef ParentName="UniversalFermenterFueled" Class="UniversalFermenterSK.ThingDef_UF">
 		<defName>Kiln</defName>
 		<label>Ceramic Kiln</label>
@@ -88,6 +89,7 @@
 			<li>Ceramics_A1</li>
 		</researchPrerequisites>
 	</ThingDef>
+	-->
 
 	<ThingDef ParentName="UniversalFermenterFueled" Class="UniversalFermenterSK.ThingDef_UF">
 		<defName>CementationFurnace</defName>

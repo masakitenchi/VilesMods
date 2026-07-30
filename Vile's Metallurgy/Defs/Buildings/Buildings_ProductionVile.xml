@@ -205,6 +205,7 @@
 	</ThingDef>
 
 	<!-- ==== BLAST FURNACE ==== -->
+	<!-- Disabled duplicate Def: Core_SK owns this Def; Metallurgy differences are applied by Patches/Core_SK_Overlap.xml.
 	<ThingDef ParentName="SK_WorkTableFueled">
 		<defName>TableFurnace</defName>
 		<label>blast furnace</label>
@@ -219,7 +220,7 @@
 			<graphicClass>Graphic_Multi</graphicClass>
 			<drawSize>(6.4,6.4)</drawSize>
 			<shadowData>
-				<volume>(4, 5, 3)</volume> <!-- Width, Length?,  Height -->
+				<volume>(4, 5, 3)</volume> [original note: Width, Length?,  Height ]
 				<offset>(0,0,-1)</offset>
 			</shadowData>
 			<damageData>
@@ -257,7 +258,7 @@
 		<fillPercent>0.7</fillPercent>
 		<building>
 			<uninstallWork>1450</uninstallWork>
-			<!--<wantsHopperAdjacent>true</wantsHopperAdjacent>-->
+			[original note:<wantsHopperAdjacent>true</wantsHopperAdjacent>]
 			<buildingTags>
 				<li>NoOutdoorPenaltyUnderRoof</li>
 			</buildingTags>
@@ -267,11 +268,11 @@
 			<li>MakeTinBars_Hand</li>
 			<li>MakeCopperBars_Hand</li>
 			<li>MakeBronze_Hand</li>
-			<!--<li>MakeSteelBars_Hand</li> blast furnace does not get hot enought to melt steel-->
+			[original note:<li>MakeSteelBars_Hand</li> blast furnace does not get hot enought to melt steel]
 			<li>MakeLeadBars_Hand</li>
 			<li>MakeGoldBars_Hand</li>
 			<li>MakeSilverBars_Hand</li>
-			<!-- <li>MakeGlassBatch</li> done at kiln -->
+			[original note: <li>MakeGlassBatch</li> done at kiln ]
 			<li>MakeGlass</li>
 			<li>MakeCharcoal_Hand</li>
 		</recipes>
@@ -279,7 +280,7 @@
 			<li Class="CompProperties_Flickable" />
 			<li Class="CompProperties_AffectedByFacilities">
 				<linkableFacilities>
-					<!--<li>ToolCabinet</li>-->
+					[original note:<li>ToolCabinet</li>]
 					<li>SteamEngine</li>
 				</linkableFacilities>
 			</li>
@@ -323,6 +324,7 @@
 		</researchPrerequisites>
 		<constructionSkillPrerequisite>5</constructionSkillPrerequisite>
 	</ThingDef>
+	-->
 
 	<!-- ==== SMITHY FORGE ==== -->
 	<ThingDef ParentName="SK_WorkTableFueled">

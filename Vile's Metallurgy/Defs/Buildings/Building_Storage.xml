@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 	<!-- VANILLA POT -->
+	<!-- Disabled duplicate Def: Core_SK owns this Def; Metallurgy differences are applied by Patches/Core_SK_Overlap.xml.
 	<ThingDef ParentName="AdaptiveStorageMinifiableBase">
 		<defName>Pot</defName>
 		<label>metal pot</label>
@@ -9,7 +10,7 @@
 			<texPath>Things/Building/Furniture/Containers/Pot</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<drawRotated>false</drawRotated>
-			<!--<color>(141,86,65)</color>-->
+			[original note:<color>(141,86,65)</color>]
 			<shadowData>
 				<volume>(0.7, 0.3, 0.7)</volume>
 			</shadowData>
@@ -55,6 +56,7 @@
 		</researchPrerequisites>
 		<constructionSkillPrerequisite>2</constructionSkillPrerequisite>
 	</ThingDef>
+	-->
 	
 	<!-- CLAY POTS -->
 	
@@ -250,12 +252,14 @@
 		</researchPrerequisites>
 	</ThingDef>
 
+	<!-- Disabled duplicate Def: Core_SK owns this Def; Metallurgy differences are applied by Patches/Core_SK_Overlap.xml.
 	<AdaptiveStorage.GraphicsDef>
 		<defName>PotASF</defName>
 		<targetDef>Pot</targetDef>
 		<graphics><li><graphicData><texPath>Things/Building/Furniture/Containers/Pot</texPath><graphicClass>Graphic_Single</graphicClass><drawRotated>false</drawRotated></graphicData></li></graphics>
 		<showContainedItems>true</showContainedItems>
 	</AdaptiveStorage.GraphicsDef>
+	-->
 	<AdaptiveStorage.GraphicsDef>
 		<defName>Building_ClayPotUnglazedASF</defName>
 		<targetDef>Building_ClayPotUnglazed</targetDef>
