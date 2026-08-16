@@ -337,7 +337,7 @@
 		</value>
 	</Operation>
 
-	<!-- Banana
+	<!-- Banana 
 		<Operation Class="PatchOperationReplace">
 			<xpath>Defs/ThingDef[defName="Plant_TreeBanana"]/plant/growDays</xpath>
 			<value>
@@ -418,4 +418,4 @@
 	</Operation>
 
 
-</Patch>
+</Patch>	

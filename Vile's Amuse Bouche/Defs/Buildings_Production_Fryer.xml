@@ -132,12 +132,12 @@
 		</comps>
 		<placeWorkers>
 			<li>PlaceWorker_ShowFacilitiesConnections</li>
-			<li>PlaceWorker_ReportWorkSpeedPenalties</li>
 		</placeWorkers>
 		<building>
 			<isMealSource>true</isMealSource>
 			<heatPerTickWhileWorking>0.6</heatPerTickWhileWorking>
 			<uninstallWork>250</uninstallWork>
+			<workTableRoomRole>Kitchen</workTableRoomRole>
 		</building>
 		<researchPrerequisites>
 			<li>Food_C6</li>
