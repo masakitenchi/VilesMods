@@ -102,7 +102,7 @@
 		<researchPrerequisites>
 			<li>Metal_floor_C1</li>
 		</researchPrerequisites>
-		<designationCategory>OutsideFloors</designationCategory>
+		<designationCategory>NaturalFloors</designationCategory>
 	</TerrainDef>
   <!-- ================= Ship Paneling ================= -->
   <TerrainDef ParentName="FAFloorBase">
@@ -124,7 +124,7 @@
 		<researchPrerequisites>
 			<li>Metal_floor_C1</li>
 		</researchPrerequisites>
-		<designationCategory>OutsideFloors</designationCategory>
+		<designationCategory>NaturalFloors</designationCategory>
 	</TerrainDef>
   <!-- ================= Advanced Tech Paneling ================= -->
   <TerrainDef ParentName="FAFloorBase">
@@ -149,7 +149,7 @@
 		<researchPrerequisites>
 			<li>Metal_floor_D1</li>
 		</researchPrerequisites>
-		<designationCategory>OutsideFloors</designationCategory>
+		<designationCategory>NaturalFloors</designationCategory>
 			<tags>
       <li>FineFloor</li>
     </tags>

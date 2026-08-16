@@ -16,7 +16,7 @@
 			<Beauty>2</Beauty>
 		</statBases>
 		<constructEffect>ConstructMetal</constructEffect>
-		<designationCategory>OutsideFloors</designationCategory>
+		<designationCategory>NaturalFloors</designationCategory>
 	</TerrainDef>
 	
 	<TerrainDef ParentName="MetalTileBase">
