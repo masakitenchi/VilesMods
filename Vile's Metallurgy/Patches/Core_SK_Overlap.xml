@@ -109,83 +109,93 @@
 			</building>
 		</value>
 	</Operation>
-	<Operation Class="PatchOperationAttributeSet">
+	<!-- Kiln changes its Def class and recipe model, so it must replace the Core_SK worktable as a whole. -->
+	<Operation Class="PatchOperationReplace">
 		<xpath>Defs/ThingDef[defName="Kiln"]</xpath>
-		<attribute>ParentName</attribute>
-		<value>UniversalFermenterBase</value>
-	</Operation>
-	<Operation Class="PatchOperationAttributeAdd">
-		<xpath>Defs/ThingDef[defName="Kiln"]</xpath>
-		<attribute>Class</attribute>
-		<value>UniversalFermenterSK.ThingDef_UF</value>
-	</Operation>
-	<Operation Class="PatchOperationAdd">
-		<xpath>Defs/ThingDef[defName="Kiln"]/inspectorTabs</xpath>
 		<value>
-			<li>SK.ITab_Fuel</li>
-		</value>
-	</Operation>
-	<Operation Class="PatchOperationRemove">
-		<xpath>Defs/ThingDef[defName="Kiln"]/recipes</xpath>
-	</Operation>
-	<Operation Class="PatchOperationRemove">
-		<xpath>Defs/ThingDef[defName="Kiln"]/comps/li[@Class="CompProperties_AffectedByFacilities"]</xpath>
-	</Operation>
-	<Operation Class="PatchOperationRemove">
-		<xpath>Defs/ThingDef[defName="Kiln"]/comps/li[@Class="SK.CompFueled_Properties"]/fuelFilter/thingDefs/li[text()="Peat"]</xpath>
-	</Operation>
-	<Operation Class="SK.PatchOperationReplaceExtended">
-		<xpath>Defs/ThingDef[defName="Kiln"]/comps/li[@Class="SK.CompFueled_Properties"]</xpath>
-		<value Merge="true">
-			<fuelCapacity>40</fuelCapacity>
-		</value>
-	</Operation>
-	<Operation Class="PatchOperationInsert">
-		<order>Prepend</order>
-		<xpath>Defs/ThingDef[defName="Kiln"]/comps/li[@Class="CompProperties_Flickable"]</xpath>
-		<value>
-			<li Class="CompProperties_Forbiddable" />
-		</value>
-	</Operation>
-	<Operation Class="PatchOperationRemove">
-		<xpath>Defs/ThingDef[defName="Kiln"]/researchPrerequisites/li[text()="Craft_B1"]</xpath>
-	</Operation>
-	<Operation Class="PatchOperationAdd">
-		<xpath>Defs/ThingDef[defName="Kiln"]/researchPrerequisites</xpath>
-		<value>
-			<li>Ceramics_A1</li>
-		</value>
-	</Operation>
-	<Operation Class="SK.PatchOperationReplaceExtended">
-		<xpath>Defs/ThingDef[defName="Kiln"]</xpath>
-		<value Merge="true">
-			<label>Ceramic Kiln</label>
-			<description>An enclosed furnace for firing ceramics. Prepare unfired pottery and bricks at the potters wheel before loading the kiln. The fuel is included in the recipes and is added once the object is placed into the kiln. Come back in a few hours or days to remove you finished product.</description>
-			<thingClass>UniversalFermenterSK.Building_UF</thingClass>
-			<graphicData>
-				<texPath>Things/Building/KilnOld</texPath>
-				<drawSize>(2,2)</drawSize>
-				<shadowData>
-					<volume>(1.5, 1.5, 1.5)</volume>
-					<offset>(0,0,0)</offset>
-				</shadowData>
-				<damageData>
-					<rect>(0.05,0.1,0.9,0.9)</rect>
-				</damageData>
-			</graphicData>
-			<costStuffCount>120</costStuffCount>
-			<fillPercent>0.01</fillPercent>
-			<pathCost>60</pathCost>
-			<statBases>
-				<WorkToBuild>2000</WorkToBuild>
-			</statBases>
-			<size>(2,2)</size>
-			<showProductIcon>true</showProductIcon>
-			<barOffset>(0.0, 0.25)</barOffset>
-			<barScale>(1.0, 1.0)</barScale>
-			<slotsCount>10</slotsCount>
-			<rotatable>false</rotatable>
-			<constructionSkillPrerequisite>2</constructionSkillPrerequisite>
+			<ThingDef ParentName="UniversalFermenterBase" Class="UniversalFermenterSK.ThingDef_UF">
+				<defName>Kiln</defName>
+				<label>Ceramic Kiln</label>
+				<description>An enclosed furnace for firing ceramics. Prepare unfired pottery and bricks at the potters wheel before loading the kiln. The fuel is included in the recipes and is added once the object is placed into the kiln. Come back in a few hours or days to remove you finished product.</description>
+				<thingClass>UniversalFermenterSK.Building_UF</thingClass>
+				<graphicData>
+					<texPath>Things/Building/KilnOld</texPath>
+					<graphicClass>Graphic_Multi</graphicClass>
+					<drawSize>(2,2)</drawSize>
+					<shaderType>CutoutComplex</shaderType>
+					<shadowData>
+						<volume>(1.5, 1.5, 1.5)</volume>
+						<offset>(0,0,0)</offset>
+					</shadowData>
+					<damageData>
+						<rect>(0.05,0.1,0.9,0.9)</rect>
+					</damageData>
+				</graphicData>
+				<interactionCellOffset>(0,0,-2)</interactionCellOffset>
+				<stuffCategories>
+					<li>Stony</li>
+					<li>Bricks</li>
+				</stuffCategories>
+				<costStuffCount>120</costStuffCount>
+				<fillPercent>0.01</fillPercent>
+				<pathCost>60</pathCost>
+				<statBases>
+					<WorkToBuild>2000</WorkToBuild>
+					<MaxHitPoints>270</MaxHitPoints>
+					<Flammability>0</Flammability>
+					<Cleanliness>-8</Cleanliness>
+					<Mass>500</Mass>
+				</statBases>
+				<size>(2,2)</size>
+				<showProductIcon>true</showProductIcon>
+				<barOffset>(0.0, 0.25)</barOffset>
+				<barScale>(1.0, 1.0)</barScale>
+				<slotsCount>10</slotsCount>
+				<inspectorTabs>
+					<li>SK.ITab_Fuel</li>
+				</inspectorTabs>
+				<comps>
+					<li Class="CompProperties_Forbiddable" />
+					<li Class="CompProperties_Flickable" />
+					<li Class="SK.CompProperties_HeatPusherAdvanced">
+						<compClass>SK.CompHeatPusherAdvanced</compClass>
+						<heatPerSecond>20</heatPerSecond>
+						<heatPushMaxTemperature>25</heatPushMaxTemperature>
+					</li>
+					<li Class="CompProperties_Glower">
+						<glowRadius>3</glowRadius>
+						<glowColor>(217,112,33,0)</glowColor>
+					</li>
+					<li Class="SK.CompFueled_Properties">
+						<operatingTemp>500</operatingTemp>
+						<drawfirefuel>false</drawfirefuel>
+						<fireDrawOffset>(0,0.1,-0.65)</fireDrawOffset>
+						<smokeDrawOffset>(0.5,-0.1,1.5)</smokeDrawOffset>
+						<fuelDrawOffset>(0,0.1,-0.8)</fuelDrawOffset>
+						<fuelCapacity>40</fuelCapacity>
+						<burnFuelMultiplier>0.6</burnFuelMultiplier>
+						<effectOnWeather>false</effectOnWeather>
+						<smokeDensity>2</smokeDensity>
+						<fuelFilter>
+							<thingDefs>
+								<li>Coal</li>
+								<li>Charcoal</li>
+								<li>Kindling</li>
+							</thingDefs>
+							<categories>
+								<li>Wooden</li>
+							</categories>
+						</fuelFilter>
+					</li>
+				</comps>
+				<tickerType>Normal</tickerType>
+				<rotatable>false</rotatable>
+				<constructionSkillPrerequisite>2</constructionSkillPrerequisite>
+				<designationCategory>Production</designationCategory>
+				<researchPrerequisites>
+					<li>Ceramics_A1</li>
+				</researchPrerequisites>
+			</ThingDef>
 		</value>
 	</Operation>
 	<Operation Class="PatchOperationRemove">

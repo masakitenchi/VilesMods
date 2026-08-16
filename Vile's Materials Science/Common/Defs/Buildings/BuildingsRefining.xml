@@ -226,7 +226,6 @@
 		</comps>
 		<placeWorkers>
 			<li>PlaceWorker_ShowFacilitiesConnections</li>
-			<li>PlaceWorker_ReportWorkSpeedPenalties</li>
 		</placeWorkers>
 		<building>
 			<heatPerTickWhileWorking>2</heatPerTickWhileWorking>
@@ -334,7 +333,6 @@
 		</comps>
 		<placeWorkers>
 			<li>PlaceWorker_ShowFacilitiesConnections</li>
-			<li>PlaceWorker_ReportWorkSpeedPenalties</li>
 		</placeWorkers>
 		<building>
 			<heatPerTickWhileWorking>2</heatPerTickWhileWorking>
@@ -418,9 +416,6 @@
 		<building>
 			<uninstallWork>1450</uninstallWork>
 		</building>
-		<placeWorkers>
-			<li>PlaceWorker_ReportWorkSpeedPenalties</li>
-		</placeWorkers>
 		<constructionSkillPrerequisite>5</constructionSkillPrerequisite>
 		<researchPrerequisites>
 			<li>Chemistry_C0</li>

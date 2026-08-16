@@ -129,7 +129,6 @@
 		</comps>
 		<placeWorkers>
 			<li>PlaceWorker_ShowFacilitiesConnections</li>
-			<li>PlaceWorker_ReportWorkSpeedPenalties</li>
 		</placeWorkers>
 		<researchPrerequisites>
 			<li>Apparel_B1</li>
@@ -186,7 +185,6 @@
 		</comps>
 		<placeWorkers>
 			<li>PlaceWorker_ShowFacilitiesConnections</li>
-			<li>PlaceWorker_ReportWorkSpeedPenalties</li>
 		</placeWorkers>
 		<researchPrerequisites>
 			<li>Repair_table_B1</li>
@@ -318,7 +316,6 @@
 		</comps>
 		<placeWorkers>
 			<li>PlaceWorker_ShowFacilitiesConnections</li>
-			<li>PlaceWorker_ReportWorkSpeedPenalties</li>
 		</placeWorkers>
 		<researchPrerequisites>
 			<li>Fabrication</li>

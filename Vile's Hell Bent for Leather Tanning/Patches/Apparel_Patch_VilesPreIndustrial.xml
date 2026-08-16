@@ -18,7 +18,7 @@
 		<!-- tatami -->
 		<!-- munition -->
 		<!-- shimmering crown -->
-		<xpath>Defs/ThingDef[defName="ViTech_GladiatorLaminar" or
+		<xpath>Defs/ThingDef[defName="ViTech_GladiatorLaminar" or 
 					defName="MedievalTimes_Cloaked_Hauberk" or
 					defName="Apparello_Syndicatellorare" or
 					defName="ViTech_TatamiArmor" or	
@@ -58,7 +58,7 @@
 
 	<!-- WARMASK -->
 	<Operation Class="PatchOperationReplace">
-		<xpath>Defs/ThingDef[defName="Apparel_WarMask" or
+		<xpath>Defs/ThingDef[defName="Apparel_WarMask" or 
 					defName="Apparel_BronzeHelmet"]/stuffCategories</xpath>
 		<value>
 			<stuffCategories>
@@ -76,7 +76,7 @@
 
 	<!-- VANBRACES, GREAVES -->
 	<Operation Class="PatchOperationReplace">
-		<xpath>Defs/ThingDef[defName="MedievalTimes_Gloves_Plated" or
+		<xpath>Defs/ThingDef[defName="MedievalTimes_Gloves_Plated" or 
 					defName="MedievalTimes_Boots_Steel_Plated"]/stuffCategories</xpath>
 		<value>
 			<stuffCategories>
@@ -86,7 +86,7 @@
 		</value>
 	</Operation>
 	<Operation Class="PatchOperationReplace">
-		<xpath>Defs/ThingDef[defName="MedievalTimes_Gloves_Plated" or
+		<xpath>Defs/ThingDef[defName="MedievalTimes_Gloves_Plated" or 
 					defName="MedievalTimes_Boots_Steel_Plated"]/costList</xpath>
 		<value>
 			<costList>
@@ -238,4 +238,4 @@
 	</Operation>
 
 
-</Patch>
+</Patch>	
