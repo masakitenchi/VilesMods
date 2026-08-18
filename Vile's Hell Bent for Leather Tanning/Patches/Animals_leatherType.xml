@@ -94,14 +94,6 @@
 				</value>
 			</li>
             
-            <li Class="PatchOperationReplace" MayRequire="Ludeon.RimWorld.Biotech">
-				<xpath>Defs/ThingDef[defName="WasteRat"
-                    or defName="Toxalope"]/race/leatherDef</xpath>
-				<value>
-					<leatherDef>Hide_ImmunogenicHide</leatherDef>
-				</value>
-			</li>
-			
 			<li Class="PatchOperationReplace">
 				<xpath>Defs/ThingDef[defName="Chinchilla" 
 				or @Name="SK_BigCatThingBase" 
@@ -215,7 +207,7 @@
 				</value>
 			</li>
 		-->	
-		
+
 		</operations>
 	</match>
     </Operation>		
@@ -251,4 +243,4 @@
     </Operation>
 	
 	
-</Patch>	
+</Patch>
