@@ -16,12 +16,6 @@
 			<LeatherAmount>11</LeatherAmount>
 		</value>
 	</Operation>
-	<Operation Class="PatchOperationReplace">
-		<xpath>Defs/ThingDef[@Name="SK_AnimalThingBase"]/statBases/LeatherAmount</xpath>
-		<value>
-			<LeatherAmount>4</LeatherAmount>
-		</value>
-	</Operation>
 	<Operation Class="PatchOperationAdd">
 		<xpath>Defs/ThingDef[defName="Cow"or
 					defName="Yak"]/statBases</xpath>
