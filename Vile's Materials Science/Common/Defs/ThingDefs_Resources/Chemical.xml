@@ -28,32 +28,7 @@
 		<stackLimit>300</stackLimit>
 	</ThingDef>
 	
-	<ThingDef ParentName="ResourceBase">
-		<defName>Paraffins</defName>
-		<label>Teflon</label>
-		<description>Teflon, or PTFE, is a thermoplastic with extremely high corrosion and chemical resistance, friction resistance, and is hydrophobic. Its applications include hazmat gear, as a biomaterial, and lubricant for certain machines. It's highly toxic so best not to use it to coat your pans.</description>
-		<graphicData>
-			<texPath>Things/Item/Chemical/Teflon</texPath>
-			<graphicClass>Graphic_Single</graphicClass>
-			<color>(255,255,255)</color>
-		</graphicData>
-		<soundInteract>Standard_Drop</soundInteract>
-		<soundDrop>Standard_Drop</soundDrop>
-		<techLevel>Industrial</techLevel>
-		<statBases>
-			<MaxHitPoints>5</MaxHitPoints>
-			<MarketValue>7</MarketValue>
-			<DeteriorationRate>0.05</DeteriorationRate>
-			<Flammability>0</Flammability>
-			<Mass>0.05</Mass>
-			<Bulk>0.05</Bulk>
-		</statBases>
-		<tickerType>Normal</tickerType>
-		<thingCategories>
-			<li>Chemical</li>
-		</thingCategories>
-		<stackLimit>300</stackLimit>
-	</ThingDef>
+	<!-- Core_SK owns ThingDef Paraffins; Materials Science changes are applied by Common/Patches/Core_SK_Overlap/ThingDefs_Resources/Chemical.xml. -->
 	
 	<ThingDef ParentName="ResourceBase">
 		<defName>IsopropylAlcohol</defName>

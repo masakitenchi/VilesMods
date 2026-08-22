@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Patch>
+	<!-- Core_SK overlap changes from Common/Defs/RecipesDefs/Recipes_industrial_alloy.xml. Identical fields are intentionally omitted. -->
+	<!-- RecipeDef: MakeBronze_Electric -->
+	<Operation Class="SK.PatchOperationReplaceExtended">
+		<xpath>Defs/RecipeDef[defName="MakeBronze_Electric"]</xpath>
+		<value Merge="true">
+			<label>Make bronze x25</label>
+			<description>Bronze is an antique alloy, but is still useful.</description>
+			<jobString>Making bronze alloy.</jobString>
+			<workAmount>550</workAmount>
+			<ingredients DeepReplace="true">
+				<li>
+					<filter>
+						<thingDefs>
+							<li>CopperBar</li>
+						</thingDefs>
+					</filter>
+					<count>20</count>
+				</li>
+				<li>
+					<filter>
+						<thingDefs>
+							<li>TinBar</li>
+							<li>AluminiumBar</li>
+						</thingDefs>
+					</filter>
+					<count>5</count>
+				</li>
+			</ingredients>
+			<fixedIngredientFilter>
+				<thingDefs DeepReplace="true">
+					<li>CopperBar</li>
+					<li>TinBar</li>
+					<li>AluminiumBar</li>
+				</thingDefs>
+			</fixedIngredientFilter>
+			<products>
+				<Bronze>25</Bronze>
+			</products>
+			<skillRequirements>
+				<Crafting>3</Crafting>
+			</skillRequirements>
+		</value>
+	</Operation>
+</Patch>
