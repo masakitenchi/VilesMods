@@ -66,9 +66,6 @@
 		<label>deep fryer</label>
 		<thingClass>SK.Building_WorkTable_HeatPushAdvanced</thingClass>
 		<description>A deep fryer filled with hot cooking oil. Requires power.</description>
-		<inspectorTabs>
-			<li>ITab_Bills</li>
-		</inspectorTabs>
 		<graphicData>
 			<texPath>Things/Building/Production/FoodStuff/Fryer</texPath>
 			<graphicClass>Graphic_Single</graphicClass>

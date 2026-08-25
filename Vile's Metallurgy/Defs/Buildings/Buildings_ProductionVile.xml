@@ -5,9 +5,6 @@
 		<defName>FirePit</defName>
 		<label>fire pit</label>
 		<description>A large oven dug into the earth. It can burn hotter than a campfire - enough to smelt pre-iron age metals such as lead and bronze.</description>
-		<inspectorTabs>
-			<li>ITab_Bills</li>
-		</inspectorTabs>
 		<drawerType>MapMeshAndRealTime</drawerType>
 		<graphicData>
 			<texPath>Things/Building/FirePit</texPath>
@@ -105,9 +102,6 @@
 		<defName>Bloomery</defName>
 		<label>bloomery</label>
 		<description>A bloomery is a small furnace used to reduce iron ore (ie. dirty, rusty rocks) into a iron bloom. The furnace doesn't get hot enough to melt the iron, but instead the carbon monoxide (CO) from the burning carbon fuel (charcoal) reacts with the iron oxide (FeO) to make carbon dioxide (CO2), leaving behind metallic iron (Fe) in a spongy mass of slag. Then you'll want to have a blacksmith beat the impurities out with a hammer if you want iron that you can actually use.</description>
-		<inspectorTabs>
-			<li>ITab_Bills</li>
-		</inspectorTabs>
 		<drawerType>MapMeshAndRealTime</drawerType>
 		<graphicData>
 			<texPath>Things/Building/Bloomery</texPath>
@@ -331,9 +325,6 @@
 		<defName>FueledSmithy</defName>
 		<label>smithy forge</label>
 		<description>This blacksmithing setup has all the tools needed to build metal armor, work tools, melee weapons, advanced bows and crossbows, as well as simple ammunition such as arrows. It requires some fuel that burns at a high temperature such as coal or peat.</description>
-		<inspectorTabs>
-			<li>ITab_Bills</li>
-		</inspectorTabs>
 		<drawerType>MapMeshAndRealTime</drawerType>
 		<graphicData>
 			<texPath>Things/Building/Production/NeolithicProduction/Blacksmith</texPath>
@@ -439,9 +430,6 @@
 		<defName>Finery</defName>
 		<label>finery forge</label>
 		<thingClass>SK.Building_AnimatedWorktable</thingClass>
-		<inspectorTabs>
-			<li>ITab_Bills</li>
-		</inspectorTabs>
 		<description>A finery is a forge that specialized in producing wrought bar iron from cast iron or bloom. The raw iron is melted and hammered into shape with a (preferrably) water-powered trip hammer, and then reheated and hammered again until the slag and much of the carbon is removed. At this stage, the melting point is too high to be melted again unless recarbonized. It can also be used to make certain products such as plate armor.</description>
 		<drawerType>MapMeshAndRealTime</drawerType>
 		<graphicData>
@@ -566,9 +554,6 @@
 		<defName>Foundry</defName>
 		<label>foundry</label>
 		<description>A reverberatory furnace for melting metals. The material is heated by reflected thermal energy and combustion gasses without direct contact with the fuel (as opposed to a blast furnace). It's a multi-use furnace. Pots and crucibles can be placed in the hearth, or the chamber can be completely filled with molten metal for puddling pig into wrought iron or, technology allowing, certain types of steel.</description>
-		<inspectorTabs>
-			<li>ITab_Bills</li>
-		</inspectorTabs>
 		<!--<description>A tall and narrow furnace for melting metal. The metal is loaded into the top and makes its way past layers of hot coal and flux and pours out a spout into molds.</description>-->
 		<drawerType>MapMeshAndRealTime</drawerType>
 		<graphicData>
@@ -839,9 +824,6 @@
 		<defName>StampMill</defName>
 		<label>stamp mill</label>
 		<description>A mill that smashes rather than grinds. It can be powered by hand if you're desperate, but it's meant to be powered by a waterwheel.</description>
-		<inspectorTabs>
-			<li>ITab_Bills</li>
-		</inspectorTabs>
 		<graphicData>
 			<texPath>Things/Building/StampMill</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -916,9 +898,6 @@
 		<defName>PotteryStation</defName>
 		<label>pottery bench</label>
 		<description>A potter's wheel and bench for preparing earthenware and ceramic objects for the kiln.</description>
-		<inspectorTabs>
-			<li>ITab_Bills</li>
-		</inspectorTabs>
 		<graphicData>
 			<texPath>Things/Building/PotteryTable</texPath>
 			<graphicClass>Graphic_Multi</graphicClass>

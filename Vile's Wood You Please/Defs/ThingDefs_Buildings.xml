@@ -57,9 +57,6 @@
 		<defName>LogSplittingSpot</defName>
 		<label>splitting spot</label>
 		<description>A space designated for splitting logs into firewood and firewood into kindling.</description>
-		<inspectorTabs>
-			<li>ITab_Bills</li>
-		</inspectorTabs>
 		<graphicData>
 			<texPath>Things/VileWood/LogSplittingSpot</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -119,9 +116,6 @@
 		<defName>ChoppingBlock</defName>
 		<label>chopping block</label>
 		<description>A sturdy block and maul for efficiently cutting and splitting logs into firewood.</description>
-		<inspectorTabs>
-			<li>ITab_Bills</li>
-		</inspectorTabs>
 		<graphicData>
 			<texPath>Things/Building/ChoppingLog</texPath>
 			<graphicClass>Graphic_Single</graphicClass>

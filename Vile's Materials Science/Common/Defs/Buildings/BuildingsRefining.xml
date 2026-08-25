@@ -145,9 +145,6 @@
 		<stuffCategories>
 			<li>CorrosionResistant</li>
 		</stuffCategories>
-		<inspectorTabs>
-			<li>ITab_Bills</li>
-		</inspectorTabs>
 		<costStuffCount>60</costStuffCount>
 		<costList>
 			<ComponentIndustrial>12</ComponentIndustrial>
@@ -262,9 +259,6 @@
 		<stuffCategories>
 			<li>RuggedMetallic</li>
 		</stuffCategories>
-		<inspectorTabs>
-			<li>ITab_Bills</li>
-		</inspectorTabs>
 		<costStuffCount>155</costStuffCount>
 		<costList>
 			<ComponentIndustrial>12</ComponentIndustrial>
@@ -369,9 +363,6 @@
 		<stuffCategories>
 			<li>CorrosionResistant</li>
 		</stuffCategories>
-		<inspectorTabs>
-			<li>ITab_Bills</li>
-		</inspectorTabs>
 		<costStuffCount>120</costStuffCount>
 		<costList>
 			<Glass>80</Glass>

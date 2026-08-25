@@ -9,9 +9,6 @@ Light radius: 8
 Max heat: 30 (25 per sec)
 Capacity: 18
 Efficiency: 22%</description>    
-		<inspectorTabs>
-			<li>ITab_Bills</li>
-		</inspectorTabs>
 		<drawerType>MapMeshAndRealTime</drawerType>
 		<graphicData>
 			<texPath>Things/Building/Production/OpenHearth</texPath>
@@ -167,9 +164,6 @@ Light radius: 8
 Max heat: 35 (25 per sec)
 Capacity: 27
 Efficiency: 25%</description>    
-		<inspectorTabs>
-			<li>ITab_Bills</li>
-		</inspectorTabs>
 		<graphicData>
 			<texPath>Things/Building/Production/Hearth</texPath>
 			<graphicClass>Graphic_Multi</graphicClass>

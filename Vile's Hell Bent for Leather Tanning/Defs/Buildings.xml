@@ -103,9 +103,6 @@
 		<size>(2,2)</size>
 		<designationCategory>Production</designationCategory>
 		<interactionCellOffset>(0,0,0)</interactionCellOffset>
-		<inspectorTabs>
-			<li>ITab_Bills</li>
-		</inspectorTabs>
 		<building>
 			<uninstallWork>1000</uninstallWork>
 		</building>
@@ -173,9 +170,6 @@
 		<size>(2,2)</size>
 		<designationCategory>Production</designationCategory>
 		<interactionCellOffset>(0,0,-1)</interactionCellOffset>
-		<inspectorTabs>
-			<li>ITab_Bills</li>
-		</inspectorTabs>
 		<comps>
 			<li Class="CompProperties_AffectedByFacilities">
 				<linkableFacilities>
@@ -287,9 +281,6 @@
 		<size>(3,2)</size>
 		<designationCategory>Production</designationCategory>
 		<interactionCellOffset>(0,0,-1)</interactionCellOffset>
-		<inspectorTabs>
-			<li>ITab_Bills</li>
-		</inspectorTabs>
 		<tickerType>Normal</tickerType>
 		<comps>
 			<li Class="CompProperties_AffectedByFacilities">
