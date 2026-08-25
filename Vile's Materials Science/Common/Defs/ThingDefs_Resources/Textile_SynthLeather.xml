@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 	
 		<!-- PVC LEATHER -->
@@ -30,7 +30,6 @@ Also known as PVC leather, this vegan material competes with animal leathers. It
 			<Mass>0.03</Mass>
 			<Bulk>0.03</Bulk>
 		</statBases>
-		<tickerType>Rare</tickerType>
 		<stackLimit>300</stackLimit>
 		<techLevel>Industrial</techLevel>
 		<stuffProps>

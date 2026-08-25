@@ -14,7 +14,6 @@
 		</graphicData>
 		<soundInteract>Standard_Drop</soundInteract>
 		<soundDrop>Standard_Drop</soundDrop>
-		<tickerType>Rare</tickerType>
 		<techLevel>Industrial</techLevel>
 		<statBases>
 			<MarketValue>1</MarketValue>
@@ -40,7 +39,6 @@
 		</graphicData>
 		<soundInteract>Standard_Drop</soundInteract>
 		<soundDrop>Standard_Drop</soundDrop>
-		<tickerType>Rare</tickerType>
 		<techLevel>Industrial</techLevel>
 		<statBases>
 			<MarketValue>1</MarketValue>
@@ -66,7 +64,6 @@
 		</graphicData>
 		<soundInteract>Standard_Drop</soundInteract>
 		<soundDrop>Standard_Drop</soundDrop>
-		<tickerType>Rare</tickerType>
 		<techLevel>Industrial</techLevel>
 		<statBases>
 			<MarketValue>1</MarketValue>
