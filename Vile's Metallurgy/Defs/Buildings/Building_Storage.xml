@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-	<!-- VANILLA POT -->
-	<!-- Disabled duplicate Def: Core_SK owns this Def; Metallurgy differences are applied by Patches/Core_SK_Overlap.xml.
+	<!-- Legacy duplicate Def retained for reference. Core_SK owns Pot; current Metallurgy differences are applied by Patches/Core_SK_Overlap.xml.
 	<ThingDef ParentName="AdaptiveStorageMinifiableBase">
 		<defName>Pot</defName>
 		<label>metal pot</label>
@@ -102,10 +101,11 @@
 		
 	</ThingDef>
 	
+	<!-- Disabled duplicate Def: Core_SK owns Pot; this unglazed clay-pot variant is applied by Patches/Core_SK_Overlap.xml.
 	<ThingDef ParentName="Building_ClayPot">
 		<defName>Building_ClayPotUnglazed</defName>
 		<label>clay pot</label>
-		<description>A fired, but unglazed clay pot. Used for food storage, but it's porous and doesn't seal as well as glazed pots. Reduces spoilage by 30%.</description>
+		<description>A fired, but unglazed clay pot. Used for food storage, but it's porous and doesn't seal as well as glazed pots. Reduces spoilage by 35%.</description>
 		<statBases>
 			<MarketValue>100</MarketValue>
 			<MaxHitPoints>65</MaxHitPoints>
@@ -131,6 +131,7 @@
 			<li>Ceramics_A1</li>
 		</researchPrerequisites>
 	</ThingDef>
+	-->
 	
 	
 	<ThingDef ParentName="Building_ClayPot">
@@ -252,7 +253,7 @@
 		</researchPrerequisites>
 	</ThingDef>
 
-	<!-- Disabled duplicate Def: Core_SK owns this Def; Metallurgy differences are applied by Patches/Core_SK_Overlap.xml.
+	<!-- Legacy duplicate Def retained for reference. Core_SK owns PotASF; current Metallurgy differences are applied by Patches/Core_SK_Overlap.xml.
 	<AdaptiveStorage.GraphicsDef>
 		<defName>PotASF</defName>
 		<targetDef>Pot</targetDef>
@@ -260,12 +261,14 @@
 		<showContainedItems>true</showContainedItems>
 	</AdaptiveStorage.GraphicsDef>
 	-->
+	<!-- Disabled duplicate Def: Core_SK owns PotASF; these unglazed clay-pot graphics are applied by Patches/Core_SK_Overlap.xml.
 	<AdaptiveStorage.GraphicsDef>
 		<defName>Building_ClayPotUnglazedASF</defName>
 		<targetDef>Building_ClayPotUnglazed</targetDef>
 		<graphics><li><graphicData><texPath>Things/Pottery/Pot_unglazed</texPath><graphicClass>Graphic_Single</graphicClass><drawRotated>false</drawRotated></graphicData></li></graphics>
 		<showContainedItems>true</showContainedItems>
 	</AdaptiveStorage.GraphicsDef>
+	-->
 	<AdaptiveStorage.GraphicsDef>
 		<defName>Building_ClayPotAshASF</defName>
 		<targetDef>Building_ClayPotAsh</targetDef>

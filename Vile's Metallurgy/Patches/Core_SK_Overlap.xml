@@ -198,44 +198,58 @@
 			</ThingDef>
 		</value>
 	</Operation>
+	<!-- Metallurgy's fired unglazed pot reuses Core_SK's Pot instead of defining a second storage building. -->
 	<Operation Class="PatchOperationRemove">
-		<xpath>Defs/ThingDef[defName="Pot"]/stuffCategories/li[text()="Ceramic"]</xpath>
+		<xpath>Defs/ThingDef[defName="Pot"]/stuffCategories</xpath>
 	</Operation>
 	<Operation Class="PatchOperationRemove">
-		<xpath>Defs/ThingDef[defName="Pot"]/stuffCategories/li[text()="Woody"]</xpath>
+		<xpath>Defs/ThingDef[defName="Pot"]/costStuffCount</xpath>
 	</Operation>
 	<Operation Class="SK.PatchOperationReplaceExtended">
 		<xpath>Defs/ThingDef[defName="Pot"]</xpath>
 		<value Merge="true">
-			<label>metal pot</label>
-			<description>A big pot made of metal; used to preserve food. Slows rotting process almost as well as glazed ceramics. Reduces spoilage by 40%. Not cheap to construct.</description>
-			<graphicData>
-				<texPath>Things/Building/Furniture/Containers/Pot</texPath>
+			<label>clay pot</label>
+			<description>A fired, but unglazed clay pot. Used for food storage, but it's porous and doesn't seal as well as glazed pots. Reduces spoilage by 35%.</description>
+			<graphicData DeepReplace="true">
+				<texPath>Things/Pottery/Pot_unglazed</texPath>
+				<graphicClass>Graphic_Single</graphicClass>
+				<drawRotated>false</drawRotated>
 				<shadowData>
 					<volume>(0.7, 0.3, 0.7)</volume>
 				</shadowData>
 			</graphicData>
-			<costStuffCount>30</costStuffCount>
-			<costList>
-				<ComponentMedieval>4</ComponentMedieval>
+			<costList DeepReplace="true">
+				<ClayPot>1</ClayPot>
 			</costList>
 			<statBases>
-				<MarketValue>150</MarketValue>
+				<MaxHitPoints>65</MaxHitPoints>
+				<WorkToBuild>100</WorkToBuild>
+				<Beauty>1</Beauty>
 			</statBases>
-			<researchPrerequisites>
-				<li>Craft_B1</li>
+			<comps DeepReplace="true">
+				<li Class="SK.CompProperties_RotModified">
+					<rotmodifier>0.65</rotmodifier>
+				</li>
+			</comps>
+			<researchPrerequisites DeepReplace="true">
+				<li>Ceramics_A1</li>
 			</researchPrerequisites>
+			<constructionSkillPrerequisite>1</constructionSkillPrerequisite>
 		</value>
 	</Operation>
-	<Operation Class="PatchOperationRemove">
-		<xpath>Defs/AdaptiveStorage.GraphicsDef[defName="PotASF"]/graphics/li[2]</xpath>
-	</Operation>
 	<Operation Class="SK.PatchOperationReplaceExtended">
-		<xpath>Defs/AdaptiveStorage.GraphicsDef[defName="PotASF"]/graphics/li[1]</xpath>
+		<xpath>Defs/AdaptiveStorage.GraphicsDef[defName="PotASF"]</xpath>
 		<value Merge="true">
-			<graphicData>
-				<texPath>Things/Building/Furniture/Containers/Pot</texPath>
-			</graphicData>
+			<graphics DeepReplace="true">
+				<li>
+					<graphicData>
+						<texPath>Things/Pottery/Pot_unglazed</texPath>
+						<graphicClass>Graphic_Single</graphicClass>
+						<drawRotated>false</drawRotated>
+					</graphicData>
+				</li>
+			</graphics>
+			<showContainedItems>true</showContainedItems>
 		</value>
 	</Operation>
 	<Operation Class="PatchOperationAdd">

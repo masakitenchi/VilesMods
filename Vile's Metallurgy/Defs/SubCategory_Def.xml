@@ -18,7 +18,7 @@
 		<label>Glazed Ceramics</label>
 		<description>Ceramic pots.</description>
 		<defNames>
-			<li>Building_ClayPotUnglazed</li>
+			<li>Pot</li>
 			<li>Building_ClayPotAsh</li>
 			<li>Building_ClayPotPainted</li>
 			<li>Building_ClayPotSalt</li>
