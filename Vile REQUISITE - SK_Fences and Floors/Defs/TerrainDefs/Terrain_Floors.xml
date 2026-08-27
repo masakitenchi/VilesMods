@@ -6,6 +6,7 @@
       <li>Light</li>
       <li>Medium</li>
       <li>Heavy</li>
+      <li>Walkable</li>
     </affordances>
     <designationCategory>Floors</designationCategory>
     <fertility>0</fertility>
