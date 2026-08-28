@@ -1,7 +1,7 @@
-<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8"?>
 <Patch>
 	<!-- Remove unused leather from the game -->
-	
+
 	<Operation Class="PatchOperationSequence">
 		<success>Always</success>
 		<operations>
@@ -18,11 +18,11 @@
                     or defName="MakeSyntheticFibers"
                     or defName="MakeCarbonAlloy"]</xpath>
 			</li>
-		
+
 			<li Class="PatchOperationRemove">
 				<xpath>Defs/RecipeDef[defName="MakeKevlar"]/recipeUsers</xpath>
 			</li>
-			
+
 			<li Class="PatchOperationRemove">
 				<xpath>Defs/RecipeDef[defName="MakeSteelBars_Electric" or 
 				defName="ProcessNickelOre" or 
@@ -46,11 +46,11 @@
 				defName="MakeDepletedUraniumAlloy" or 
 				defName="MakeAluminiumBars_Electric"]/researchPrerequisite</xpath>
 			</li>
-            
-            	<li Class="PatchOperationRemove">
+
+			<li Class="PatchOperationRemove">
 				<xpath>Defs/RecipeDef[defName="MakeCompaste"]</xpath>
 			</li>
-		<!--
+			<!--
 			<li Class="PatchOperationRemove">
 				<xpath>Defs/RecipeDef[defName="MakeSteelBars_Electric" or 
 				defName="ProcessNickelOre" or 
@@ -75,7 +75,7 @@
 				defName="MakeAluminiumBars_Electric"]</xpath>
 			</li>
 -->
-			
+
 			<!-- not removed
 			defName="MakeBronze_Electric" or 
 			defName="MakeSilverBars_Hand" or 
@@ -88,6 +88,6 @@
 		-->
 		</operations>
 	</Operation>
-	
+
 
 </Patch>

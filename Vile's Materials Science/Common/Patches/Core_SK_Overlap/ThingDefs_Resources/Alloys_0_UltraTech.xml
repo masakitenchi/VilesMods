@@ -11,9 +11,6 @@
 	<Operation Class="PatchOperationRemove">
 		<xpath>Defs/ThingDef[defName="AlphaPoly"]/tradeability</xpath>
 	</Operation>
-	<Operation Class="PatchOperationRemove">
-		<xpath>Defs/ThingDef[defName="AlphaPoly"]/tickerType</xpath>
-	</Operation>
 	<Operation Class="SK.PatchOperationReplaceExtended">
 		<xpath>Defs/ThingDef[defName="AlphaPoly"]</xpath>
 		<value Merge="true">

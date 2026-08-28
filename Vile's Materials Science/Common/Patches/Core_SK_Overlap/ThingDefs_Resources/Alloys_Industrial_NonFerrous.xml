@@ -283,6 +283,7 @@ Depleted Uranium Alloy is created by refining Uranium Ore through a Gas Centrifu
 			<graphicData>
 				<texPath>Things/Item/Material/DepletedUranium</texPath>
 			</graphicData>
+			<stackLimit>600</stackLimit>
 			<statBases>
 				<MarketValue>28</MarketValue>
 				<StuffPower_Armor_Blunt>1.5</StuffPower_Armor_Blunt>

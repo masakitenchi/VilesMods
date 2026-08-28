@@ -2,9 +2,9 @@
 <Patch>
 	<!-- Core_SK overlap changes from Common/Defs/RecipesDefs/Recipes_Textile.xml. Identical fields are intentionally omitted. -->
 	<!-- RecipeDef: MakeKevlar -->
-	<Operation Class="PatchOperationRemove">
+	<!-- <Operation Class="PatchOperationRemove">
 		<xpath>Defs/RecipeDef[defName="MakeKevlar"]/recipeUsers</xpath>
-	</Operation>
+	</Operation> -->
 	<Operation Class="SK.PatchOperationReplaceExtended">
 		<xpath>Defs/RecipeDef[defName="MakeKevlar"]</xpath>
 		<value Merge="true">
