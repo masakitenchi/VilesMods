@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
+<!--
 <ThingDef ParentName="SK_WorkTableFueled">
 		<defName>OpenHearth</defName>
 		<label>open hearth</label>
@@ -153,6 +154,7 @@ Efficiency: 22%</description>
 			<li>Pemmican</li>
 		</researchPrerequisites>
 	</ThingDef>
+-->
 
 
 	<ThingDef ParentName="SK_WorkTableFueled">
