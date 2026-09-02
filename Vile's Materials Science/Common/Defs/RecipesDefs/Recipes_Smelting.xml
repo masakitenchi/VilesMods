@@ -100,7 +100,7 @@
 	</RecipeDef>
 	<RecipeDef>
 		<defName>SmeltMagnetite_HighTech</defName>
-		<label>Spec: Magnetite (25 Fe, 25 Cr, 10 Zn)</label>
+		<label>Spec: Magnetite (25 Fe, 5 Cr, 10 Zn)</label>
 		<description>Process magnetite into pig iron (Fe), Chromium (Cr), and Zinc (Zn). Some iron is lost in the process.</description>
 		<jobString>Processing magnetite (Fe, Cr, Zn).</jobString>
 		<workAmount>2400</workAmount>
@@ -135,7 +135,7 @@
 		</fixedIngredientFilter>
 		<products>
 			<PigIron>25</PigIron>
-			<Chromium>25</Chromium>
+			<Chromium>5</Chromium>
 			<Zinc>10</Zinc>
 		</products>
 		<skillRequirements>
@@ -1396,4 +1396,3 @@
 	</RecipeDef>
 	
 </Defs>
-	
