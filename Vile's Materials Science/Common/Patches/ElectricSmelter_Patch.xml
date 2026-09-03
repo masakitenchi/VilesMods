@@ -105,9 +105,6 @@
             <li>PodChair</li>
           </linkableFacilities>
         </li>
-        <li>
-          <compClass>CommonSense.DoCleanComp</compClass>
-        </li>
       </comps>
       <placeWorkers>
         <li>PlaceWorker_ReportWorkSpeedPenalties</li>
