@@ -284,7 +284,7 @@
 			<li>MakeToolSteel</li>
 			<li>MakeSpringSteel</li>
 			<li>MakeBrass</li>
-			<li>MakeBronze_Electric</li>
+			<!-- <li>MakeBronze_Electric</li> -->
 			<li>MakeAnodizedAluminiumBlue</li>
 			<li>MakeAnodizedAluminiumRed</li>
 			<li>MakeSterlingSilver_Industrial</li>
