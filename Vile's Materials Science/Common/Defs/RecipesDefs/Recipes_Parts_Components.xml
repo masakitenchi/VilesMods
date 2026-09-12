@@ -261,6 +261,60 @@
 		<workSkillLearnFactor>0.8</workSkillLearnFactor>
 		<researchPrerequisite>ResearchMobileMineralSonarEnhancedScan</researchPrerequisite>
 	</RecipeDef>
+
+	<RecipeDef>
+		<defName>MakeCarbonNanotubesAdvanced</defName>
+		<label>Synthesize carbon nanotubes with cobalt recovery x15</label>
+		<description>An advanced nanotube process that uses coke as the carbon source and cobalt and nickel ore as catalysts. Additional separation and catalyst regeneration recover two of the three units of cobalt used in each batch.</description>
+		<jobString>Synthesizing nanotubes and recovering cobalt.</jobString>
+		<workAmount>5000</workAmount>
+		<workSpeedStat>SmithingSpeed</workSpeedStat>
+		<effectWorking>Smith</effectWorking>
+		<soundWorking>Recipe_Machining</soundWorking>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Coke</li>
+					</thingDefs>
+				</filter>
+				<count>35</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Cobalt</li>
+					</thingDefs>
+				</filter>
+				<count>3</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Nickel</li>
+					</thingDefs>
+				</filter>
+				<count>3</count>
+			</li>
+		</ingredients>
+		<products>
+			<Carbon>15</Carbon>
+			<Cobalt>2</Cobalt>
+		</products>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Coke</li>
+				<li>Cobalt</li>
+				<li>Nickel</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<skillRequirements>
+			<Crafting>17</Crafting>
+		</skillRequirements>
+		<workSkill>Crafting</workSkill>
+		<workSkillLearnFactor>0.8</workSkillLearnFactor>
+		<researchPrerequisite>Components_D2</researchPrerequisite>
+	</RecipeDef>
 	
 	<RecipeDef>
 		<defName>MakeNanotechFramework</defName>
