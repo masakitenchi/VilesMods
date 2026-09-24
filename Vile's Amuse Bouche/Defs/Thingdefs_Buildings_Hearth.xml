@@ -296,6 +296,7 @@ Efficiency: 25%</description>
 			<li MayRequire="Ludeon.RimWorld.Biotech">Make_BabyFoodBulk</li>
 		</recipes>
 		<building>
+			<workTableRoomRole>Kitchen</workTableRoomRole>
 			<isMealSource>true</isMealSource>
 			<spawnedConceptLearnOpportunity>BillsTab</spawnedConceptLearnOpportunity>
 			<artificialForMeditationPurposes>false</artificialForMeditationPurposes>
